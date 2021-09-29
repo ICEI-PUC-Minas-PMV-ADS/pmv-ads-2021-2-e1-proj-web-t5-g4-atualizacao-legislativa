@@ -6,7 +6,7 @@ Na área do direito, é costume a utilização do chamado Vade Mecum, que consis
 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Considerando o cenário descrito anteriormente, diversos problemas surgem dentro da referida dinâmica. O primeiro deles, é o gasto de recursos na compra de um livro que frequentemente poderá estar desatualizado. O segundo, está relacionado com as opções de impressão ou download. Nos sites dos órgãos públicos, que são os mais confiáveis para se acessar uma legislação atualizada, encontram-se algumas barreiras: não é possível fazer o download da lei em PDF, fazendo com que seja preciso copiar e colar o seu conteúdo dentro de um editor de texto, para assim salvá-la em PDF. Além disso, para a opção de impressão, ao utilizar o atalho Ctrl+P, há apenas a opção de imprimir na forma que a lei consta no site, não sendo possível fazer formatações no texto (como tamanho da fonte, margens, espaçamento entre linhas, etc.). Para que seja possível realizar tais modificações, também se torna necessário copiar e colar o conteúdo em um editor de texto para fazer as adaptações necessárias e assim realizar a impressão. Como as atividades mencionadas não são automatizadas, demandam que o usuário efetue uma série de passos, causando entraves na consulta legislativa.
 
 Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
