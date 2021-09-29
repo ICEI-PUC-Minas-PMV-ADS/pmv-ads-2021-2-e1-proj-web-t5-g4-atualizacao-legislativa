@@ -19,28 +19,23 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral do trabalho é criar um portal de acesso às legislações, por meio de uma ferramenta fácil de ser utilizada, que permita ao usuário fazer o download de qualquer lei em formato .pdf ou .docx para ser editado. Será possibilitado ainda a criação de um histórico de acesso e o envio de um alerta por e-mail, SMS ou whatsapp, sempre que ocorrer uma atualização em uma lei já acessada pelo usuário. A solução deverá ainda permitir que o usuário possa integrar as alterações em seu material.
+Os objetivos específicos consistem em:
+> -	Fornecer opção de download no formato .pdf ou .docx, com opções de edição de texto;
+> -	Definir padrões de busca;
+> -	Permitir a impressão do texto no formato editado pelo usuário;
+> -	Criar um histórico de acesso do usuário;
+> -	Enviar notificação ao usuário das alterações de legislações já acessadas por ele.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O Brasil possui hoje 1.755 faculdades de Direito (Portal Exame de Ordem, 2020). Muitos bacharéis se formam anualmente neste curso, que abrange não só a carreira de advocacia, mas também outros âmbitos de atuação. Contando apenas os advogados, em 2019, havia 1,1 milhões de profissionais e estima-se que este número deve ultrapassar 2 milhões até 2023 (Migalhas, 2019). É um número expressivo de pessoas, e ainda deve-se levar em consideração os estudantes do curso de Direito, concurseiros, juízes, promotores, delegados e outros que atuam diretamente com as leis. Considerando tais dados, existe uma grande demanda por textos legais atualizados. E, se essa atualização puder ser mais prática e rápida, muitos serão beneficiados. 
 
 ## Público-Alvo
-
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Considerando pessoas que utilizam ou dependem de algum tipo de legislação para seu trabalho ou mesmo vida pessoal/acadêmica, o público alvo abrange os estudantes, profissionais liberais, e pessoas que atuam em contato direito com a lei, homens e mulheres a partir de 17 anos, que buscam um cargo ou emprego público e também quem dependam do constante uso da lei.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
