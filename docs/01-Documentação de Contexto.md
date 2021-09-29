@@ -1,6 +1,9 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Constantes mudanças no cenário mundial refletem em nossos dias regularmente e para acompanhar o dinamismo e as mudanças do mundo contemporâneo, as normas que regem a sociedade são frequentemente aperfeiçoadas e adequadas às novas realidades e demandas que surgem. Todos os dias são atualizadas ou criadas leis, decretos, medidas provisórias e jurisprudências.
+As frequentes mudanças normativas, tornam difícil para pessoas que utilizam ou dependem de algumas legislações, como por exemplo, profissionais do direito, alunos, concurseiros, entre outros, manterem-se atualizados. 
+Na área do direito, é costume a utilização do chamado Vade Mecum, que consiste em um compilado de leis organizadas em formato de livro impresso. Entretanto, devido às constantes atualizações legislativas, é comum a rápida desatualização deste material. Por este motivo, aquele que precisa se inteirar das novidades, deve comprar um novo Vade Mecum atualizado (que costuma ter edições semestrais) ou fazer a impressão ou download dos novos textos.
+
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
