@@ -1,23 +1,23 @@
-# TÍTULO DO PROJETO
+# Web Info Legislativo
 
-`CURSO`
+`Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`2º Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Portal de acesso a atuaizações de legislativas, que permite ao usuário manter-se informado sobre alterações legais, efetuar download de arquvios em formato .pdf ou .docx (arquivo de texto editável).
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Daniel Henrique Abreu Araújo
+* Isabela Pinheiro Santos
+* Júlio Sérgio Novaes Gomes
+* Paulo Henrique Costa Santos
 
 ## Orientador
 
-* Nome completo do professor 1
+* Profa. MSc. Luciana de Nardin
 
 ## Instruções de utilização
 
