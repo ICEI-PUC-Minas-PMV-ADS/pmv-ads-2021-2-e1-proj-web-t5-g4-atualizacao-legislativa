@@ -55,4 +55,12 @@ footer{
 #topo{
     padding: 6px;
 }
-
+.modal_content{
+    margin-top: 100px !important;
+  }
+  
+  @media (max-width: 428px) { 
+     .modal_content > div > inside{
+       display: none !important;
+     }
+   }
