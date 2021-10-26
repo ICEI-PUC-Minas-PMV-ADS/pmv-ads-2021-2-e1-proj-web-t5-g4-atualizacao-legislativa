@@ -47,7 +47,7 @@ modelo disponível no Boostrap e é um modal do tipo estático. Veja a figura ab
 
 <br>
 <br>
-<img width="100%"  src="./img/Modalweb.png" alt="Modal para Login"/>
+<img width="100%"  src="./img/Index.png" alt="Página Inicial"/>
 <br>
 <br>
 
