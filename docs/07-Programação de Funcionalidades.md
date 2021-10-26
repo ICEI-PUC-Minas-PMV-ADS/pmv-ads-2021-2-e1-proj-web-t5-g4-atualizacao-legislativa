@@ -1,15 +1,50 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+Nesta seção, são exibidas as telas referentes à construção parcial de algumas funcionalidades elencadas no item 2 deste projeto. Nesta etapa, foram atendidos os seguintes requisitos funcionais:  
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+* RF-06 O site deve permitir fazer gerenciamento de usuários. 
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+* RF-07 O site deve exibir na página inicial as últimas alterações legislativas. 
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+ 
+
+#### 7.1 **HOME PAGE** (RF-07): 
+
+<img width="100%"  src="./img/Index.png" alt="Tela inicial"/>
+
+<br>
+<br>
+
+A tela inicial permite ao usuário ter uma visão geral do site e aos resumos das últimas alterações legislativas, que são exibidas em forma de card. Ademais, é disponibilizado ao usuário a opção de registrar-se ou efetuar o login, caso já possua cadastro.
+
+ 
+
+##### Artefatos da funcionalidade: 
+
+* Index.html 
+* Style.css 
+
+ 
+
+#### 7.2 **LOGIN** (RF-06): 
+
+<img width="100%"  src="./img/ModalWeb.png" alt="Modal para Login"/>
+
+O cadastro e login, que integram o gerenciamento de usuários, é elemento indispensável para acesso ao conteúdo do site. Em regra, o usuário sempre será redirecionado ao modal de login.  
+
+##### Artefatos da funcionalidade:
+
+* Index.html 
+* Style.css 
+
+#### 7.3 INSTRUÇÔES DE ACESSO: 
+
+* Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub; 
+
+* Descompacte o arquivo em uma pasta específica; 
+
+* Abra o Visual Studio Code e execute o Live Server; 
+
+Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t5-g4-atualizacao-legislativa/ 
+
+ 
