@@ -59,6 +59,13 @@ footer{
 .modal_content{
   margin-top: 100px !important;
 }
+.nav-item:hover{
+color: rgba(61, 60, 60, 0.8) !important;
+}
+.nav-item:active{
+    color: rgba(61, 60, 60, 0.8) !important;
+
+}
 
 @media (max-width: 428px) { 
    .modal_content > div > inside{
