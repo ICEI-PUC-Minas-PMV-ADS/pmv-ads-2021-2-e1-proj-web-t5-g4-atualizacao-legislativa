@@ -8,11 +8,19 @@ window.Login = (login, password) => {
         let userObjeto ={}
         users.forEach(item =>{
             if(item.nome === login && item.senha === password){
-            userObjeto.nome= item.nome;
+            userObjeto.nome = item.nome;
             userObjeto.senha = item.senha;
         }});
         //Olha se existe usuário para logar
-        if (userObjeto) {
+
+        let parserObj = localStorage.getItem('user')
+          let objLocal = JSON.parse(parserObj);
+          if(objLocal) {
+              userObjeto = objLocal
+          }else{
+              localStorage.setItem('user',JSON.stringify(userObjeto))
+          }
+            if (userObjeto) {
             document.getElementById('register-alert').classList.remove('d-flex')
             document.getElementById('register-alert').classList.add('d-none')
             document.getElementById('alert').classList.remove('justify-content-between')
@@ -20,8 +28,8 @@ window.Login = (login, password) => {
             //remove o botão do header
             document.getElementById('acount-btn').classList.remove('d-flex')
             document.getElementById('acount-btn').classList.add('d-none')
-
             document.getElementById('exampleModal').classList.remove('show')
+            document.getElementsByClassName('modal-backdrop')[0]?.remove('modal-backdrop fade show')
             //Navega para home autenticada
             toHome();
             activeLink('home');
