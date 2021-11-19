@@ -16,7 +16,7 @@
 
 <body>
   <!-- Header  -->
-  <nav class="navbar  w-100  navbar-expand-lg navbar-dark bg-primary ">
+  <nav id="topo" class="navbar  w-100  navbar-expand-lg navbar-dark bg-primary ">
     <a class="navbar-brand"><span onclick="toHome()" class="d-flex flex-row h3 text-light"> <i
           class="fa-solid fa-scale-unbalanced balance pt-1 "></i>
         <h3 class="ml-2"> Web Info Legislativo</h3>
@@ -56,17 +56,17 @@
         data-whatever="" class="mb-2 ml-2 text-decoration-none">Cadastre-se!</a>
     </div>
     <form id="filtro" class="form-inline">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
+      <input id="filter-input" class="form-control mr-sm-2" type="date" placeholder="Search" aria-label="Search" />
       <div class="custom-control custom-radio custom-control-inline">
-        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+        <input  type="radio" onclick="mudarInputData(event)" id="customRadioInline1" checked="true" name="radio" value="data" class="custom-control-input">
         <label class="custom-control-label" for="customRadioInline1">Data</label>
       </div>
       <div class="custom-control custom-radio custom-control-inline">
-        <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+        <input type="radio" id="customRadioInline2" name="radio" onclick="mudarInputID(event)"   value="id" class="custom-control-input">
         <label class="custom-control-label" for="customRadioInline2">Chave</label>
       </div>
 
-      <button class="btn btn-outline-primary my-2 my-sm-0" type="button">Search</button>
+      <button id="btn-filter" class="btn btn-outline-primary my-2 my-sm-0"  onclick="filtrar(event)">Search</button>
     </form>
 
   </div>
