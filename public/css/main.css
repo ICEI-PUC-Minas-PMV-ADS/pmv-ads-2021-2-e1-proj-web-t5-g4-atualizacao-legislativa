@@ -72,3 +72,42 @@ color: rgba(61, 60, 60, 0.8) !important;
 display: none !important;
 }
 }
+
+.detail-container{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+#content-text{
+    width: 500;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+        
+}
+#content-text > p {
+    padding: 5px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px ;
+}
+
+
+
+.detail-btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+
+.detail-btn > button{
+    font-size: 12px;
+    padding: 4px;
+    margin-bottom: 2px;
+    
+    width: 100px ;
+}

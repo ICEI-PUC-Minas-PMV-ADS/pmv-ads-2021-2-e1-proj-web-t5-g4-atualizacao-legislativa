@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br" >
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="public/css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -62,7 +63,7 @@
         <label class="custom-control-label" for="customRadioInline1">Data</label>
       </div>
       <div class="custom-control custom-radio custom-control-inline">
-        <input type="radio" id="customRadioInline2" name="radio" onclick="mudarInputID(event)"   value="id" class="custom-control-input">
+        <input type="radio" id="customRadioInline2" name="radio" onclick="mudarInputID(event)"   value="chave" class="custom-control-input">
         <label class="custom-control-label" for="customRadioInline2">Chave</label>
       </div>
 
@@ -121,8 +122,15 @@
 
 
     <!-- Importando o JavaScript da biblioteca do Bootstarp -->
-
+    <script src="https://unpkg.com/browse/docx@5.0.2/build/index.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver/1.3.8/FileSaver.js"></script>
+   
     <!-- Importando o arquivo js -->
+    <script src="node_modules/docxtemplater/build/docxtemplater.js"></script>
+    <script src="node_modules/pizzip/dist/pizzip.js"></script>
+    <script src="node_modules/pizzip/vendor/FileSaver.js"></script>
+    <script src="node_modules/pizzip/dist/pizzip-utils.js"></script>
+
     <script src="public/js/main.js"></script>
     <script type="module" src="public/js/auth.js"></script>
     <script type="module" src="public/js/index.js"></script>
