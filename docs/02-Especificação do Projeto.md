@@ -34,9 +34,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| O site deve permitir a consulta por número da lei. | ALTA |
 |RF-004| O site deve permitir a consulta por data. | MÉDIA |
 |RF-005| O site deve permitir a consulta por palavras-chave. | MÉDIA |
-|RF-006| O site deve permitir fazer gerenciamento de usuários. | ALTA |
-|RF-007| O site deve exibir na página inicial as últimas alterações legislativas. | BAIXA |
-|RF-008| O site deve enviar notificações de atualizações de um texto de lei que um usuário acessou anteriormente | ALTA |
+|RF-006| O site deve permitir que o usuário faça login. | ALTA |
+|RF-007| O site deve permitir que o usário cadastro. | ALTA |
+|RF-007| O site deve exibir na página inicial as últimas alterações legislativas. | MÉDIA |
+|RF-008| O site deve enviar notificações de atualizações de um texto de lei que um usuário acessou anteriormente | BAIXA |
 
 ### Requisitos não Funcionais
 
