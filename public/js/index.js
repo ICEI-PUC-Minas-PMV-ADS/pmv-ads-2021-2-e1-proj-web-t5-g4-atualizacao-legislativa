@@ -6,11 +6,11 @@ import DetalhesLeiOld from '../../views/DetailsOld.js';
 import Page2 from '../../views/Page2.js';
 import Page3 from '../../views/Page3.js';
 
-let userLogado = localStorage.getItem('user');
+let userLogado = localStorage.getItem('userAuth');
 
 let userObjeto = JSON.parse(userLogado)
 
-let existUser = userObjeto === null ? false : true
+let existUser = userObjeto === null  ? false : true
 
 if (existUser) {
   document.getElementById('register-alert').classList.remove('d-flex')
@@ -20,7 +20,7 @@ if (existUser) {
   //remove o botão do header
   document.getElementById('acount-btn').classList.remove('d-flex')
   document.getElementById('acount-btn').classList.add('d-none')
-  document.getElementById('acount-container').innerHTML = `<button class="btn btn-primary border-white"> <i class="fa-solid fa-circle-user h3 text-white hoverBtn"></i>${userObjeto.nome.substr(0, 6)}</button>`
+  document.getElementById('acount-container').innerHTML = `<button onclick="loggof()" class="btn btn-primary border-white"> <i class="fa-solid fa-circle-user h3 text-white hoverBtn"></i>${userObjeto.nome.substr(0, 6)}</button>`
 }
 window.oldViewDetail = id => {
   const lei = Leis.find(item => item.id === id)
@@ -42,9 +42,9 @@ window.gerarPdf = () => {
   mywindow.close();
 
 }
-
-function loadFile(url, callback) {
-  PizZipUtils.getBinaryContent(url, callback);
+window.loggof = ()=>{
+  localStorage.removeItem('userAuth')
+  document.location.reload()
 }
 window.openWord = () => {
   let filename = null
@@ -64,7 +64,7 @@ window.openWord = () => {
   var url = URL.createObjectURL(blob);
 
   // Specify file name
-  filename = filename ? filename + '.doc' : 'document.doc';
+  filename = filename ? filename + '.docx' : 'document.docx';
 
   // Create download link element
   var downloadLink = document.createElement("a");

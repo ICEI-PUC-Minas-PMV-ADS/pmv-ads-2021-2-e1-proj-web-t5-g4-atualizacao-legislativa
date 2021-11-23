@@ -1,5 +1,3 @@
-
-
 const gerarComponenteLogin = () => {
 
   document.getElementById("template").innerHTML = `
@@ -112,24 +110,42 @@ const mudarInputID = (e) =>{
   const onSubmitCadastro = (event) => {
     event.preventDefault();
     const label = ["nome", "email", "senha", "senhaTwo"];
-    let objeto = {};
+    let objeto = {
+      nome:"",
+      email:"",
+      senha:"",
+      senhaTwo:""
+    };
     label.forEach((item) => {
       objeto[item] = document.getElementById(item).value;
     });
-    debugger;
     if (
       objeto.nome !== "" &&
       objeto.email !== "" &&
       objeto.senha === objeto.senhaTwo
     ) {
-      //Buscar o array no localStorage
-      let users = localStorage.getItem("usuario");
-      //Converter a string em um array
-      let array = JSON.parse(users);
-      //Inserir usuario no array
-      array.push(objeto);
+      let user = localStorage.getItem('usuario')
+      let data = JSON.parse(user)
+      data.push(objeto);
+
+      localStorage.removeItem('usuario')
+      localStorage.setItem('usuario', JSON.stringify(data))
+      localStorage.setItem('userAuth', JSON.stringify(objeto))
       //Atualizar o array salvo no localStorage
-      localStorage.setItem("usuario", JSON.stringify(array));
+      document.getElementById('register-alert').classList.remove('d-flex')
+            document.getElementById('register-alert').classList.add('d-none')
+            document.getElementById('alert').classList.remove('justify-content-between')
+            document.getElementById('alert').classList.add('justify-content-end')
+            //remove o botão do header
+            document.getElementById('acount-btn').classList.remove('d-flex')
+            document.getElementById('acount-btn').classList.add('d-none')
+            document.getElementById('exampleModal').classList.remove('show')
+            document.getElementsByClassName('modal-backdrop')[0]?.remove('modal-backdrop fade show')
+            //Navega para home autenticada
+            toHome();
+            activeLink('home');
+            //Adiciona o botão com o nome do usuário 
+            document.getElementById('acount-container').innerHTML = `<button onclick="loggof()" class="btn btn-primary border-white"> <i class="fa-solid fa-circle-user h3 text-white hoverBtn"></i>${objeto.nome.substr(0, 6)}</button>`
     } else {
       let objVerificaSenha = {};
       label.forEach((item) => {

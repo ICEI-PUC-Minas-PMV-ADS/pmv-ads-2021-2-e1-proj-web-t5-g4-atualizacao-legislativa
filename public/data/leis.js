@@ -1,7 +1,7 @@
 const leis = [{
     id:1,
     descricao: "Art. 2º  Ao Conselho Nacional dos Direitos da Pessoa com Deficiência compete",
-    conteudo:`<p>Dispõe sobre o Conselho Nacional dos Direitos da Pessoa com Deficiência (...)</br>
+    conteudo:`<p><p style="background-color:green">Dispõe sobre o Conselho Nacional dos Direitos da Pessoa com Deficiência</p> (...)</br>
     Art. 2º  Ao Conselho Nacional dos Direitos da Pessoa com Deficiência compete:</br>
     I - acompanhar pela implantação da Política Nacional para a Inclusão da Pessoa com Deficiência; </br>
     II - acompanhar o planejamento e avaliar a execução das políticas setoriais de educação, saúde, trabalho, assistência social, transporte, cultura, turismo, desporto, lazer, política urbana, reabilitação e outras políticas relativas à pessoa com deficiência;</br>
