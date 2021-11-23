@@ -34,7 +34,7 @@ window.Login = (login, password) => {
             toHome();
             activeLink('home');
             //Adiciona o botão com o nome do usuário 
-            document.getElementById('acount-container').innerHTML = `<button class="btn btn-primary border-white"> <i class="fa-solid fa-circle-user h3 text-white hoverBtn"></i>${userObjeto.nome.substr(0, 6)}</button>`
+            document.getElementById('acount-container').innerHTML = `<button onclick="loggof()" class="btn btn-primary border-white"> <i class="fa-solid fa-circle-user h3 text-white hoverBtn"></i>${userObjeto.nome.substr(0, 6)}</button>`
         } else {
             alert('Deu erro na Autenticação')
         }
