@@ -15,11 +15,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Guilherme Alves| fazer o download de uma legislação em formato PDF| fazer grifos e anotações no próprio computador, sem precisar imprimir a lei.|
 |Guilherme Alves| editar o texto de uma legislação| adequar tamanho de fonte, espaçamento, margem etc., da forma que eu preferir, para download ou impressão.|
-|Guilherme Alves| manter um registro salvo com as minhas preferências de edição de texto| facilitar a manutenção de um
-padrão para a impressão de documentos.
+|Guilherme Alves| manter um registro salvo com as minhas preferências de edição de texto| facilitar a manutenção de um padrão para a impressão de documentos.|
 |Lúcia Tomazaki| receber notificações de atualizações sobre um texto que já acessei anteriormente no site| não perder tempo pesquisando se a legislação possui alguma nova alteração.|
-|Lúcia Tomakazi| poder acessar conteúdo legislativo compatível com leitores de telas| promover a compreensão da
-legislação de forma acessível.|
+|Lúcia Tomakazi| poder acessar conteúdo legislativo compatível com leitores de telas| promover a compreensão da legislação de forma acessível.|
 
 ## Requisitos
 
@@ -36,8 +34,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| O site deve permitir a consulta por palavras-chave. | MÉDIA |
 |RF-006| O site deve permitir que o usuário faça login. | ALTA |
 |RF-007| O site deve permitir que o usário cadastro. | ALTA |
-|RF-007| O site deve exibir na página inicial as últimas alterações legislativas. | MÉDIA |
-|RF-008| O site deve enviar notificações de atualizações de um texto de lei que um usuário acessou anteriormente | BAIXA |
+|RF-008| O site deve exibir na página inicial as últimas alterações legislativas. | MÉDIA |
+|RF-009| O site deve enviar notificações de atualizações de um texto de lei que um usuário acessou anteriormente | BAIXA |
 
 ### Requisitos não Funcionais
 
