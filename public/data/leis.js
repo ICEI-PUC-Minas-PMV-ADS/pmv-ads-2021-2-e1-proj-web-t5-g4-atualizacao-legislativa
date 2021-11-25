@@ -1,6 +1,6 @@
 const leis = [{
     id:1,
-    descricao: "'Dispõe sobre o Conselho Nacional dos Direitos da Pessoa com Deficiência.'",
+    descricao: "Dispõe sobre o Conselho Nacional dos Direitos da Pessoa com Deficiência.",
     conteudo:`<p></br>
     Alteração pelo DECRETO 10.812 DE 27 DE SETEMBRO DE 2021 e pelo DECRETO 10.841 DE 20 DE OUTUBRO DE 2021.</br></br>
     (...)</br></br>
@@ -203,7 +203,7 @@ const leis = [{
 },
 {
     id:2,
-    descricao: "'Dispõe sobre as sanções aplicáveis em virtude da prática de atos de improbidade administrativa, de que trata o § 4º do art. 37 da Constituição Federal; e dá outras providências.'",
+    descricao: "Dispõe sobre as sanções aplicáveis em virtude da prática de atos de improbidade administrativa, de que trata o § 4º do art. 37 da Constituição Federal; e dá outras providências.",
     conteudo: `<p></br>
     Alteração pela LEI Nº 14.230, DE 25 DE OUTUBRO DE 2021.</br></br>
     (...)</br></br>
@@ -627,7 +627,7 @@ const leis = [{
 },
 {
     id:4,
-    descricao: "'Lei de licitações e contratos administrativos.'",
+    descricao: "Lei de licitações e contratos administrativos.",
     titulo: "LEI 14.113 DE 25 DE DEZEMBRO DE 2020",
     data:'2021-11-11',
     conteudo: `<p><br>
@@ -699,23 +699,371 @@ const leis = [{
 },
 {
     id:6,
-    descricao: "Daniel sobre a proibição da eliminação de cães e gatos pelos órgãos de controle de zoonoses, canis públicos e estabelecimentos oficiais congêneres; e dá outras providências.",
-    titulo: "LEI Nº 14.228, DE 20 DE OUTUBRO DE 2021"
+    descricao: "'Altera a Lei nº 4.118, de 27 de agosto de 1962, e a Lei nº 5.740, de 1 de dezembro de 1971, que criaram, respectivamente, a Comissão Nacional de Energia Nuclear - CNEN e a (...)'",
+    titulo: "LEI Nº 6.189, DE 16 DE DEZEMBRO DE 1974",
+    data: `2021-10-15`,
+    conteudo: `<p></br>
+    Alteração pela LEI Nº 14.222, DE 15 DE OUTUBRO DE 2021.</br></br>
+    (...)</br></br>
+    Art 1º A União exercerá o monopólio de que trata o artigo 1º, da Lei nº 4.118, de 27 de agosto de 1962:</br>
+    I - por meio da Comissão Nacional de Energia Nuclear (CNEN); e</br>
+    II - por meio das Indústrias Nucleares do Brasil S.A. (INB).</br>
+    Art 2º Compete à CNEN:</br>
+    I - colaborar com o Ministério da Ciência, Tecnologia e Inovações na formulação da política nuclear; </br>
+    II - estabelecer diretrizes específicas para as atividades de pesquisa, de ciência, de desenvolvimento e de inovação tecnológicas no campo da energia nuclear;</br>
+    III - elaborar e propor ao Ministério da Ciência, Tecnologia e Inovações programas e projetos no âmbito da política nuclear;</br>
+    IV - promover e incentivar: </br>
+    a) a utilização da energia nuclear para fins pacíficos, nos diversos setores do desenvolvimento nacional;</br>
+    b) a formação de cientistas, técnicos e especialistas nos setores relativos à energia nuclear;</br> 
+    c) a pesquisa científica e tecnológica no campo da energia nuclear; </br>
+    d) a pesquisa e a lavra de minérios nucleares e seus associados;</br>
+    e) o tratamento de minérios nucleares, seus associados e derivados;</br>  
+    f) (revogada);</br> 
+    g) a produção e o comércio de materiais nucleares e radioativos, equipamentos e serviços de interesse da energia nuclear;</br>
+    h) a transferência de tecnologia nuclear a empresas industriais de capital nacional, mediante consórcio ou acordo comercial;</br>
+    V - negociar nos mercados interno e externo, bens e serviços de interesse nuclear;</br> 
+    VI - receber e depositar rejeitos radioativos;</br>
+    VII - prestar serviços no campo dos usos pacíficos da energia nuclear;</br>  
+    VIII – (revogado);</br>
+    IX – (revogado);</br>
+    X – (revogado);</br>
+    XI - opinar sobre a concessão de patentes e licenças relacionadas com a utilização da energia nuclear;</br>  
+    XII - promover a organização e a instalação de laboratórios e instituições de pesquisa a elas subordinadas técnica e administrativamente, bem assim cooperar com instituições existentes no País com objetivos afins;</br> 
+    XIII – (revogado);</br>
+    XIV – (revogado);</br>
+    XV - pronunciar-se sobre projetos de tratados, acordos, convênios ou compromissos internacionais de qualquer espécie, relativos à energia nuclear;</br>  
+    XVI - produzir, comercializar e promover a utilização de radioisótopos para pesquisa científica nas diferentes áreas do conhecimento da tecnologia nuclear;</br>
+    XVII – (revogado);</br>
+    XVIII – (revogado).</br>
+    (...)</br>
+    Art. 4º Na pesquisa ou na lavra autorizadas, a ocorrência de urânio ou de tório obriga o titular a comunicar o fato à Autoridade Nacional de Segurança Nuclear (ANSN), à Agência Nacional de Mineração (ANM) e às (INB), sob pena de revogação da autorização.</br>
+    Parágrafo único. (Revogado).</br>
+    § 1º Verificada a ocorrência de urânio ou de tório em quantidades de valor econômico superior ao da substância mineral pesquisada ou lavrada, a jazida será incluída no monopólio e classificada pela ANSN conforme o grau de concentração e quantidade dos referidos minérios e da viabilidade econômica de exploração, na forma de ato do Poder Executivo.</br>
+    § 2º Verificada a ocorrência de urânio ou de tório em quantidades de valor econômico inferior ao da substância mineral pesquisada ou lavrada, a autorização de pesquisa poderá ser concedida ou mantida, desde que sejam observadas as condições específicas de segurança, de prazo, de idoneidade e de capacidade técnica e financeira do responsável, entre outras estabelecidas em regulamento.</br>
+    § 3º A exportação de minérios ou de concentrados de minérios que contenham urânio ou tório em coexistência com o produto principal demandará autorização prévia da ANSN e o ressarcimento em moeda corrente, pelo exportador, do valor correspondente ao urânio e ao tório neles contidos, com base nos preços vigentes no mercado internacional, na forma de ato do Poder Executivo.</br>
+    (...)</br>
+    Art. 19. Além das atribuições que lhes são conferidas, caberá à CNEN e à INB a comercialização exclusiva de materiais nucleares, compreendidos no âmbito do monopólio.</br>
+    </p>`,
+    conteudoOld: `<p></br>
+    (...)</br></br>   
+    Art 1º A União exercerá o monopólio de que trata o artigo 1º, da Lei nº 4.118, de 27 de agosto de 1962: </br>  
+    I - Por meio da Comissão Nacional de Energia Nuclear - CNEN, como órgão superior de orientação, planejamento, supervisão, fiscalização e de pesquisa científica. </br>  
+    II - Por meio da Empresas Nucleares Brasileiras Sociedade Anônima - NUCLEBRÁS e de suas subsidiárias, como órgãos de execução.</br>  
+    Art 2º Compete à CNEN: </br>  
+    I - colaborar na formulação da Política Nacional de Energia Nuclear; </br>  
+    II - baixar diretrizes específicas para radioproteção e segurança nuclear, atividade científico-tecnológica, industriais e demais aplicações nucleares;  </br>                      
+    III - elaborar e propor ao Conselho Superior de Política Nuclear - CSPN, o Programa Nacional de Energia Nuclear; </br>  
+    IV - promover e incentivar: </br>  
+    a) a utilização da energia nuclear para fins pacíficos, nos diversos setores do desenvolvimento nacional;</br>  
+    b) a formação de cientistas, técnicos e especialistas nos setores relativos à energia nuclear;</br>   
+    c) a pesquisa científica e tecnológica no campo da energia nuclear; </br>  
+    d) a pesquisa e a lavra de minérios nucleares e seus associados;</br>  
+    e) o tratamento de minérios nucleares, seus associados e derivados; </br>  
+    f) a produção e o comércio de minérios nucleares, seus associados e derivados;</br>  
+    g) a produção e o comércio de materiais nucleares e outros equipamentos e materiais de interesse da energia nuclear;</br>  
+    h) a transferência de tecnologia nuclear a empresas industriais de capital nacional, mediante consórcio ou acordo comercial;</br>  
+    V - negociar nos mercados interno e externo, bens e serviços de interesse nuclear;</br>   
+    VI - receber e depositar rejeitos radioativos;</br>  
+    VII - prestar serviços no campo dos usos pacíficos da energia nuclear;</br>  
+    VIII - estabelecer normas e conceder licenças e autorizações para o comércio interno e externo:</br>      
+    a) de minerais, minérios, materiais, equipamentos, projetos e transferências de tecnologia de interesse para a energia nuclear;</br>      
+    b) de urânio cujo isótopo 235 ocorra em percentagem inferior ao encontrado na natureza;</br>       
+    IX - expedir normas, licenças e autorizações relativas a:</br> 
+    a) instalações nucleares;</br>
+    b) posse, uso, armazenamento e transporte de material nuclear;</br>
+    c) comercialização de material nuclear, minérios nucleares e concentrados que contenham elementos nucleares;</br>  
+    X - expedir regulamentos e normas de segurança e proteção relativas:</br>
+    a) ao uso de instalações e de materiais nucleares;</br>
+    b) ao transporte de materiais nucleares;</br>
+    c) ao manuseio de materiais nucleares;</br>
+    d) ao tratamento e à eliminação de rejeitos radioativos;</br> 
+    e) à construção e à operação de estabelecimentos destinados a produzir materiais nucleares e a utilizar energia nuclear;</br> 
+    XI - opinar sobre a concessão de patentes e licenças relacionadas com a utilização da energia nuclear;</br>  
+    XII - promover a organização e a instalação de laboratórios e instituições de pesquisa a elas subordinadas técnica e administrativamente, bem assim cooperar com instituições existentes no País com objetivos afins;</br> 
+    XIII – especificar:</br>
+    a) os elementos que devam ser considerados nucleares, além do urânio, tório e plutônio;</br> 
+    b) os elementos que devam ser considerados material fértil e material físsil especial ou de interesse para a energia nuclear;</br>
+    c) os minérios que devam ser considerados nucleares;</br>
+    d) as instalações que devam ser consideradas nucleares;</br> 
+    XIV - fiscalizar:</br>  
+    a) o reconhecimento e o levantamento geológicos relacionados com minerais nucleares;</br> 
+    b) a pesquisa, a lavra e a industrialização de minérios nucleares;</br>  
+    c) a produção e o comércio de materiais nucleares;</br> 
+    d) a indústria de produção de materiais e equipamentos destinados ao desenvolvimento nuclear;</br>
+    (...)</br>
+    Art 4º Na pesquisa autorizada ou na lavra concedida, a ocorrência de elementos nucleares obriga o titular a comunicar o fato prontamente ao Ministério das Minas e Energia, sob pena da caducidade da autorização de pesquisa ou de concessão de lavra.</br> 
+    Parágrafo único. A CNEN e o Departamento Nacional da Produção Mineral, em colaboração, exercerão sobre as atividades dos respectivos titulares a fiscalização prevista em lei.</br>  
+    (...)</br>
+    Art. 19. Além das atribuições que lhe são conferidas, caberá à CNEN e às suas subsidiárias ou controladas a comercialização exclusiva de materiais nucleares compreendidos no âmbito do monopólio, observado o art. 16 desta Lei.</br>
+    </p>`
     
 }, {
     id:7,
-    descricao: "Daniel sobre a proibição da eliminação de cães e gatos pelos órgãos de controle de zoonoses, canis públicos e estabelecimentos oficiais congêneres; e dá outras providências.",
-    titulo: "LEI Nº 14.228, DE 20 DE OUTUBRO DE 2021"
+    descricao: "Dispõe sobre a composição e a competência do Conselho da Justiça Federal, revoga a Lei no 8.472, de 14 de outubro de 1992, e dá outras providências.",
+    titulo: "LEI Nº 11.798, DE  29 DE OUTUBRO DE 2008",
+    data: `2021-10-20`,
+    conteudo: `<p></br>
+    Alteração pela LEI Nº 14.226 DE 20 DE OUTUBRO DE 2021.</br></br>
+    (...)</br>
+    Art. 2o  O Conselho da Justiça Federal será integrado:</br>
+    I –  pelo Presidente e pelo Vice-Presidente do Superior Tribunal de Justiça;</br>
+    II – por 4 (quatro) Ministros, eleitos entre os integrantes do Superior Tribunal de Justiça, juntamente com seus suplentes;</br>
+    III – pelos Presidentes dos Tribunais Regionais Federais, que serão substituídos em suas faltas ou impedimentos pelos respectivos Vice-Presidentes.</br>
+    § 1o  Terão direito a assento no Conselho da Justiça Federal, sem direito a voto, os Presidentes do Conselho Federal da Ordem dos Advogados do Brasil e da Associação dos Juízes Federais do Brasil – AJUFE, que indicarão os seus suplentes.</br>
+    § 2o  A Presidência do Conselho da Justiça Federal será exercida pelo Presidente do Superior Tribunal de Justiça, que será substituído, em suas faltas ou impedimentos, pelo Vice-Presidente do Superior Tribunal de Justiça.</br>
+    § 3o  Os Conselheiros terão mandato de 2 (dois) anos, vedada a investidura daqueles que, por mandamento constitucional, legal ou regimental, permanecerão por menos de 6 (seis) meses na função.</br>
+    § 4o  Não se aplica a regra do § 3o deste artigo aos Presidentes do Superior Tribunal de Justiça e dos Tribunais Regionais Federais.</br>
+    § 5o  É vedada a recondução de Conselheiros.</br>
+    § 6º  A Corregedoria-Geral da Justiça Federal será dirigida pelo Ministro do Superior Tribunal de Justiça eleito Corregedor-Geral conforme o Regimento Interno do Superior Tribunal de Justiça.</br>
+    § 7º  O Corregedor-Geral será substituído pelo Ministro do Superior Tribunal de Justiça eleito Vice-Corregedor-Geral nas faltas e impedimentos daquele, ou, ainda, por delegação, conforme o Regimento Interno do Superior Tribunal de Justiça.</br>
+    § 8o  O Conselho da Justiça Federal reunir-se-á ordinariamente 1 (uma) vez por mês, durante o ano judiciário, e, extraordinariamente, sempre que for necessário, por convocação de seu Presidente, exigida, em ambos os casos, a presença mínima de 7 (sete) Conselheiros.</br>
+    § 9o  As decisões do Conselho da Justiça Federal serão tomadas pelo voto da maioria entre os presentes, prevalecendo, em caso de empate, o voto proferido pelo Presidente.</br>
+    </p>`,
+    conteudoOld: `<p></br>
+    (...)</br></br>
+    Art. 2o  O Conselho da Justiça Federal será integrado:</br>
+    I –  pelo Presidente e pelo Vice-Presidente do Superior Tribunal de Justiça;</br>
+    II – por 3 (três) Ministros, eleitos entre os integrantes do Superior Tribunal de Justiça, juntamente com seus suplentes;</br>
+    III – pelos Presidentes dos Tribunais Regionais Federais, que serão substituídos em suas faltas ou impedimentos pelos respectivos Vice-Presidentes.</br>
+    § 1o  Terão direito a assento no Conselho da Justiça Federal, sem direito a voto, os Presidentes do Conselho Federal da Ordem dos Advogados do Brasil e da Associação dos Juízes Federais do Brasil – AJUFE, que indicarão os seus suplentes.</br>
+    § 2o  A Presidência do Conselho da Justiça Federal será exercida pelo Presidente do Superior Tribunal de Justiça, que será substituído, em suas faltas ou impedimentos, pelo Vice-Presidente do Superior Tribunal de Justiça.</br>
+    § 3o  Os Conselheiros terão mandato de 2 (dois) anos, vedada a investidura daqueles que, por mandamento constitucional, legal ou regimental, permanecerão por menos de 6 (seis) meses na função.</br>
+    § 4o  Não se aplica a regra do § 3o deste artigo aos Presidentes do Superior Tribunal de Justiça e dos Tribunais Regionais Federais.</br>
+    § 5o  É vedada a recondução de Conselheiros.</br>
+    § 6º  A Corregedoria-Geral da Justiça Federal será dirigida pelo Ministro do Superior Tribunal de Justiça eleito Corregedor-Geral conforme o Regimento Interno do Superior Tribunal de Justiça.</br>
+    § 7º  O Corregedor-Geral será substituído pelo Ministro do Superior Tribunal de Justiça eleito Vice-Corregedor-Geral nas faltas e impedimentos daquele, ou, ainda, por delegação, conforme o Regimento Interno do Superior Tribunal de Justiça.</br>
+    § 8o  O Conselho da Justiça Federal reunir-se-á ordinariamente 1 (uma) vez por mês, durante o ano judiciário, e, extraordinariamente, sempre que for necessário, por convocação de seu Presidente, exigida, em ambos os casos, a presença mínima de 7 (sete) Conselheiros.</br>
+    § 9o  As decisões do Conselho da Justiça Federal serão tomadas pelo voto da maioria entre os presentes, prevalecendo, em caso de empate, o voto proferido pelo Presidente.</br>
+    </p>`
 },
 {
     id:8,
-    descricao: "Daniel sobre a proibição da eliminação de cães e gatos pelos órgãos de controle de zoonoses, canis públicos e estabelecimentos oficiais congêneres; e dá outras providências.",
-    titulo: "LEI Nº 14.228, DE 20 DE OUTUBRO DE 2021"
+    descricao: "Regulamenta a tributação, a fiscalização, a arrecadação e a administração do Imposto sobre a Renda e Proventos de Qualquer Natureza.",
+    titulo: "DECRETO Nº 9.580, DE 22 DE NOVEMBRO DE 2018",
+    data: `2021-11-10`,
+    conteudo: `<p></br>
+    Alteração pelo DECRETO Nº 10.854, DE NOVEMBRO DE 2021.</br></br>
+    (...)</br></br>
+    Art. 645. Os programas de que trata esta Seção deverão conferir prioridade ao atendimento dos trabalhadores de baixa renda e ficarão limitados àqueles contratados pela pessoa jurídica beneficiária (Lei nº 6.321, de 1976, art. 2º).</br>
+    § 1º  A dedução de que trata o art. 641:</br>
+    I - será aplicável em relação aos valores despendidos para os trabalhadores que recebam até cinco salários mínimos e poderá englobar todos os trabalhadores da empresa beneficiária, nas hipóteses de serviço próprio de refeições ou de distribuição de alimentos por meio de entidades fornecedoras de alimentação coletiva; e</br>
+    II - deverá abranger apenas a parcela do benefício que corresponder ao valor de, no máximo, um salário-mínimo.</br>
+    § 2º A participação do trabalhador fica limitada a vinte por cento do custo direto da refeição.</br>
+    § 3º A quantificação do custo direto da refeição será feita conforme o período de execução do programa aprovado pelo Ministério do Trabalho, limitado ao máximo de doze meses.</br>
+    § 4º As pessoas jurídicas beneficiárias do PAT poderão estender o benefício previsto no Programa aos trabalhadores por elas dispensados, no período de transição para novo emprego, limitada a extensão ao período de seis meses (Lei nº 6.321, de 1976, art. 2º, § 2º).</br> 
+    § 5º As pessoas jurídicas beneficiárias do PAT poderão estender o benefício previsto no Programa aos empregados que estejam com contrato suspenso para participação em curso ou programa de qualificação profissional, limitada essa extensão ao período de cinco meses (Lei nº 6.321, de 1976, art. 2º, § 3º).</br> 
+    </p>`,
+    conteudoOld: `<p></br>
+    (...)</br></br>
+    Art. 645. Os programas de que trata esta Seção deverão conferir prioridade ao atendimento dos trabalhadores de baixa renda e ficarão limitados àqueles contratados pela pessoa jurídica beneficiária (Lei nº 6.321, de 1976, art. 2º).</br>
+    § 1º Os trabalhadores de renda mais elevada poderão ser incluídos no programa de alimentação, desde que seja garantido o atendimento da totalidade dos trabalhadores contratados pela pessoa jurídica beneficiária que percebam até cinco salários mínimos.</br>
+    § 2º A participação do trabalhador fica limitada a vinte por cento do custo direto da refeição.</br> 
+    § 3º A quantificação do custo direto da refeição será feita conforme o período de execução do programa aprovado pelo Ministério do Trabalho, limitado ao máximo de doze meses.</br> 
+    § 4º As pessoas jurídicas beneficiárias do PAT poderão estender o benefício previsto no Programa aos trabalhadores por elas dispensados, no período de transição para novo emprego, limitada a extensão ao período de seis meses (Lei nº 6.321, de 1976, art. 2º, § 2º).</br>
+    § 5º As pessoas jurídicas beneficiárias do PAT poderão estender o benefício previsto no Programa aos empregados que estejam com contrato suspenso para participação em curso ou programa de qualificação profissional, limitada essa extensão ao período de cinco meses (Lei nº 6.321, de 1976, art. 2º, § 3º).</br> 
+    <p>`
+
 },
 {
     id:9,
-    descricao: "Daniel sobre a proibição da eliminação de cães e gatos pelos órgãos de controle de zoonoses, canis públicos e estabelecimentos oficiais congêneres; e dá outras providências.",
-    titulo: "LEI Nº 14.228, DE 20 DE OUTUBRO DE 2021"
+    descricao: "Institui o Código de Trânsito Brasileiro",
+    titulo: "LEI Nº 9.503, DE 23 DE SETEMBRO DE 1997",
+    data: `2021-10-21`,
+    conteudo: `<p></br>
+    Alteração pela LEI Nº 14.229, DE 21 DE OUTUBRO DE 2021.</br></br>
+    (...)</br></br>
+    Art. 20. Compete à Polícia Rodoviária Federal, no âmbito das rodovias e estradas federais:</br>
+    I - cumprir e fazer cumprir a legislação e as normas de trânsito, no âmbito de suas atribuições;</br>
+    II - realizar o patrulhamento ostensivo, executando operações relacionadas com a segurança pública, com o objetivo de preservar a ordem, incolumidade das pessoas, o patrimônio da União e o de terceiros;</br>
+    III - executar a fiscalização de trânsito, aplicar as penalidades de advertência por escrito e multa e as medidas administrativas cabíveis, com a notificação dos infratores e a arrecadação das multas aplicadas e dos valores provenientes de estadia e remoção de veículos, objetos e animais e de escolta de veículos de cargas superdimensionadas ou perigosas;</br>
+    IV - efetuar levantamento dos locais de acidentes de trânsito e dos serviços de atendimento, socorro e salvamento de vítimas;</br>
+    V - credenciar os serviços de escolta, fiscalizar e adotar medidas de segurança relativas aos serviços de remoção de veículos, escolta e transporte de carga indivisível;</br>
+    VI - assegurar a livre circulação nas rodovias federais, podendo solicitar ao órgão rodoviário a adoção de medidas emergenciais, e zelar pelo cumprimento das normas legais relativas ao direito de vizinhança, promovendo a interdição de construções e instalações não autorizadas;</br>
+    VII - coletar dados estatísticos e elaborar estudos sobre acidentes de trânsito e suas causas, adotando ou indicando medidas operacionais preventivas e encaminhando-os ao órgão rodoviário federal;</br>
+    VIII - implementar as medidas da Política Nacional de Segurança e Educação de Trânsito;</br>
+    IX - promover e participar de projetos e programas de educação e segurança, de acordo com as diretrizes estabelecidas pelo CONTRAN;</br>
+    X - integrar-se a outros órgãos e entidades do Sistema Nacional de Trânsito para fins de arrecadação e compensação de multas impostas na área de sua competência, com vistas à unificação do licenciamento, à simplificação e à celeridade das transferências de veículos e de prontuários de condutores de uma para outra unidade da Federação;</br>
+    XI - fiscalizar o nível de emissão de poluentes e ruído produzidos pelos veículos automotores ou pela sua carga, de acordo com o estabelecido no art. 66, além de dar apoio, quando solicitado, às ações específicas dos órgãos ambientais.</br>
+    XII - aplicar a penalidade de suspensão do direito de dirigir, quando prevista de forma específica para a infração cometida, e comunicar a aplicação da penalidade ao órgão máximo executivo de trânsito da União.</br>
+    (...)</br>
+    Art. 99. Somente poderá transitar pelas vias terrestres o veículo cujo peso e dimensões atenderem aos limites estabelecidos pelo CONTRAN.</br>
+    § 1º O excesso de peso será aferido por equipamento de pesagem ou pela verificação de documento fiscal, na forma estabelecida pelo CONTRAN.</br>
+    § 2º Será tolerado um percentual sobre os limites de peso bruto total e peso bruto transmitido por eixo de veículos à superfície das vias, quando aferido por equipamento, na forma estabelecida pelo CONTRAN.</br>
+    3º Os equipamentos fixos ou móveis utilizados na pesagem de veículos serão aferidos de acordo com a metodologia e na periodicidade estabelecidas pelo CONTRAN, ouvido o órgão ou entidade de metrologia legal.</br>
+    § 4º Somente poderá haver autuação, por ocasião da pesagem do veículo, quando o veículo ou a combinação de veículos ultrapassar os limites de peso fixados, acrescidos da respectiva tolerância.</br>
+    § 5º O fabricante fará constar em lugar visível da estrutura do veículo e no Renavam o limite técnico de peso por eixo, na forma definida pelo Contran.</br>
+    (...)</br>
+    Art. 101.  Ao veículo ou à combinação de veículos utilizados no transporte de carga que não se enquadre nos limites de peso e dimensões estabelecidos pelo Contran, poderá ser concedida, pela autoridade com circunscrição sobre a via, autorização especial de trânsito, com prazo certo, válida para cada viagem ou por período, atendidas as medidas de segurança consideradas necessárias, conforme regulamentação do Contran.</br>
+    § 1º A autorização será concedida mediante requerimento que especificará as características do veículo ou combinação de veículos e de carga, o percurso, a data e o horário do deslocamento inicial.</br>
+    § 2º A autorização não exime o beneficiário da responsabilidade por eventuais danos que o veículo ou a combinação de veículos causar à via ou a terceiros.</br>
+    § 3º Aos guindastes autopropelidos ou sobre caminhões poderá ser concedida, pela autoridade com circunscrição sobre a via, autorização especial de trânsito, com prazo de seis meses, atendidas as medidas de segurança consideradas necessárias.</br>
+    § 4º O Contran estabelecerá os requisitos mínimos e específicos a serem observados pela autoridade com circunscrição sobre a via para a concessão da autorização de que trata o caput deste artigo quando o veículo ou a combinação de veículos trafegar exclusivamente em via rural não pavimentada, os quais deverão contemplar o caráter diferenciado e regional dessas vias.</br>
+    (...)</br>
+    Art. 131.  O Certificado de Licenciamento Anual será expedido ao veículo licenciado, vinculado ao Certificado de Registro de Veículo, em meio físico e/ou digital, à escolha do proprietário, de acordo com o modelo e com as especificações estabelecidos pelo Contran.</br>
+    § 1º O primeiro licenciamento será feito simultaneamente ao registro.</br>
+    § 2º O veículo somente será considerado licenciado estando quitados os débitos relativos a tributos, encargos e multas de trânsito e ambientais, vinculados ao veículo, independentemente da responsabilidade pelas infrações cometidas.</br>
+    § 3º Ao licenciar o veículo, o proprietário deverá comprovar sua aprovação nas inspeções de segurança veicular e de controle de emissões de gases poluentes e de ruído, conforme disposto no art. 104.</br>
+    § 4º As informações referentes às campanhas de chamamento de consumidores para substituição ou reparo de veículos realizadas a partir de 1º de outubro de 2019 e não atendidas no prazo de 1 (um) ano, contado da data de sua comunicação, deverão constar do Certificado de Licenciamento Anual.</br>
+    § 5º  Após a inclusão das informações de que trata o § 4º deste artigo no Certificado de Licenciamento Anual, o veículo somente será licenciado mediante comprovação do atendimento às campanhas de chamamento de consumidores para substituição ou reparo de veículos.</br>
+    § 6º O Contran regulamentará a inserção dos dados no Certificado de Licenciamento Anual referentes às campanhas de chamamento de consumidores para substituição ou reparo de veículos realizadas antes da data prevista no § 4º deste artigo.</br>
+    (...)</br>
+    Art. 257. As penalidades serão impostas ao condutor, ao proprietário do veículo, ao embarcador e ao transportador, salvo os casos de descumprimento de obrigações e deveres impostos a pessoas físicas ou jurídicas expressamente mencionados neste Código.</br>
+    § 1º Aos proprietários e condutores de veículos serão impostas concomitantemente as penalidades de que trata este Código toda vez que houver responsabilidade solidária em infração dos preceitos que lhes couber observar, respondendo cada um de per si pela falta em comum que lhes for atribuída.</br>
+    § 2º Ao proprietário caberá sempre a responsabilidade pela infração referente à prévia regularização e preenchimento das formalidades e condições exigidas para o trânsito do veículo na via terrestre, conservação e inalterabilidade de suas características, componentes, agregados, habilitação legal e compatível de seus condutores, quando esta for exigida, e outras disposições que deva observar.</br>
+    § 3º Ao condutor caberá a responsabilidade pelas infrações decorrentes de atos praticados na direção do veículo.</br>
+    § 4º O embarcador é responsável pela infração relativa ao transporte de carga com excesso de peso nos eixos ou no peso bruto total, quando simultaneamente for o único remetente da carga e o peso declarado na nota fiscal, fatura ou manifesto for inferior àquele aferido.</br>
+    § 5º O transportador é o responsável pela infração relativa ao transporte de carga com excesso de peso nos eixos ou quando a carga proveniente de mais de um embarcador ultrapassar o peso bruto total.</br>
+    § 6º O transportador e o embarcador são solidariamente responsáveis pela infração relativa ao excesso de peso bruto total, se o peso declarado na nota fiscal, fatura ou manifesto for superior ao limite legal.</br>
+    § 7º  Quando não for imediata a identificação do infrator, o principal condutor ou o proprietário do veículo terá o prazo de 30 (trinta) dias, contado da notificação da autuação, para apresentá-lo, na forma em que dispuser o Contran, e, transcorrido o prazo, se não o fizer, será considerado responsável pela infração o principal condutor ou, em sua ausência, o proprietário do veículo.</br>
+    § 8º Após o prazo previsto no § 7º deste artigo, se o infrator não tiver sido identificado, e o veículo for de propriedade de pessoa jurídica, será lavrada nova multa ao proprietário do veículo, mantida a originada pela infração, cujo valor será igual a 2 (duas) vezes o da multa originária, garantidos o direito de defesa prévia e de interposição de recursos previstos neste Código, na forma estabelecida pelo Contran.</br>
+    § 9º O fato de o infrator ser pessoa jurídica não o exime do disposto no § 3º do art. 258 e no art. 259.</br>
+    § 10.  O proprietário poderá indicar ao órgão executivo de trânsito o principal condutor do veículo, o qual, após aceitar a indicação, terá seu nome inscrito em campo próprio do cadastro do veículo no Renavam.</br>                
+    § 11.  O principal condutor será excluído do Renavam:</br>               
+    I -  quando houver transferência de propriedade do veículo;</br>               
+    II - mediante requerimento próprio ou do proprietário do veículo;</br>                
+    III - a partir da indicação de outro principal condutor.</br>
+    Art. 271. O veículo será removido, nos casos previstos neste Código, para o depósito fixado pelo órgão ou entidade competente, com circunscrição sobre a via.</br>
+    § 1o A restituição do veículo removido só ocorrerá mediante prévio pagamento de multas, taxas e despesas com remoção e estada, além de outros encargos previstos na legislação específica.</br>
+    § 2o A liberação do veículo removido é condicionada ao reparo de qualquer componente ou equipamento obrigatório que não esteja em perfeito estado de funcionamento.</br> 
+    § 3º  Se o reparo referido no § 2º demandar providência que não possa ser tomada no depósito, a autoridade responsável pela remoção liberará o veículo para reparo, na forma transportada, mediante autorização, assinalando prazo para reapresentação.</br> 
+    § 4º  Os serviços de remoção, depósito e guarda de veículo poderão ser realizados por órgão público, diretamente, ou por particular contratado por licitação pública, sendo o proprietário do veículo o responsável pelo pagamento dos custos desses serviços.</br>          
+    § 5o O proprietário ou o condutor deverá ser notificado, no ato de remoção do veículo, sobre as providências necessárias à sua restituição e sobre o disposto no art. 328, conforme regulamentação do CONTRAN.</br>
+    § 6º  Caso o proprietário ou o condutor não esteja presente no momento da remoção do veículo, a autoridade de trânsito, no prazo de 10 (dez) dias contado da data da remoção, deverá expedir ao proprietário a notificação prevista no § 5º, por remessa postal ou por outro meio tecnológico hábil que assegure a sua ciência, e, caso reste frustrada, a notificação poderá ser feita por edital.</br>                    
+    § 7o A notificação devolvida por desatualização do endereço do proprietário do veículo ou por recusa desse de recebê-la será considerada recebida para todos os efeitos.</br>              
+    § 8o Em caso de veículo licenciado no exterior, a notificação será feita por edital.</br>
+    § 9º  Não caberá remoção nos casos em que a irregularidade for sanada no local da infração.</br>
+    § 9º-A. Quando não for possível sanar a irregularidade no local da infração, o veículo, desde que ofereça condições de segurança para circulação, será liberado e entregue a condutor regularmente habilitado, mediante recolhimento do Certificado de Licenciamento Anual, contra a apresentação de recibo, e prazo razoável, não superior a 15 (quinze) dias, será assinalado ao condutor para regularizar a situação, o qual será considerado notificado para essa finalidade na mesma ocasião.</br>
+    § 9º-B. O disposto no § 9º-A deste artigo não se aplica às infrações previstas no inciso V do caput do art. 230 e no inciso VIII do caput do art. 231 deste Código.</br> 
+    § 9º-C. Não efetuada a regularização no prazo referido no § 9º-A deste artigo, será feito registro de restrição administrativa no Renavam por órgão ou entidade executivos de trânsito dos Estados ou do Distrito Federal, o qual será retirado após comprovada a regularização.</br>
+    § 9º-D. O descumprimento da obrigação estabelecida no § 9º-A deste artigo resultará em recolhimento do veículo ao depósito, aplicando-se, nesse caso, o disposto neste artigo.</br>
+    § 10.  O pagamento das despesas de remoção e estada será correspondente ao período integral, contado em dias, em que efetivamente o veículo permanecer em depósito, limitado ao prazo de 6 (seis) meses.</br>         
+    § 11.  Os custos dos serviços de remoção e estada prestados por particulares poderão ser pagos pelo proprietário diretamente ao contratado.</br>               
+    § 12.  O disposto no § 11 não afasta a possibilidade de o respectivo ente da Federação estabelecer a cobrança por meio de taxa instituída em lei.</br>              
+    § 13.  No caso de o proprietário do veículo objeto do recolhimento comprovar, administrativa ou judicialmente, que o recolhimento foi indevido ou que houve abuso no período de retenção em depósito, é da responsabilidade do ente público a devolução das quantias pagas por força deste artigo, segundo os mesmos critérios da devolução de multas indevidas.</br>
+    (...)</br>
+    Art. 282. Caso a defesa prévia seja indeferida ou não seja apresentada no prazo estabelecido, será aplicada a penalidade e expedida notificação ao proprietário do veículo ou ao infrator, por remessa postal ou por qualquer outro meio tecnológico hábil que assegure a ciência da imposição da penalidade.</br>
+    § 1º A notificação devolvida por desatualização do endereço do proprietário do veículo ou por recusa em recebê-la será considerada válida para todos os efeitos.</br>
+    § 2º A notificação a pessoal de missões diplomáticas, de repartições consulares de carreira e de representações de organismos internacionais e de seus integrantes será remetida ao Ministério das Relações Exteriores para as providências cabíveis e cobrança dos valores, no caso de multa.</br>
+    § 3º Sempre que a penalidade de multa for imposta a condutor, à exceção daquela de que trata o § 1º do art. 259, a notificação será encaminhada ao proprietário do veículo, responsável pelo seu pagamento.</br>
+    § 4º Da notificação deverá constar a data do término do prazo para apresentação de recurso pelo responsável pela infração, que não será inferior a trinta dias contados da data da notificação da penalidade.</br>   
+    § 5º No caso de penalidade de multa, a data estabelecida no parágrafo anterior será a data para o recolhimento de seu valor.</br>
+    § 6º O prazo para expedição das notificações das penalidades previstas no art. 256 deste Código é de 180 (cento e oitenta) dias ou, se houver interposição de defesa prévia, de 360 (trezentos e sessenta) dias, contado:</br>
+    I - no caso das penalidades previstas nos incisos I e II do caput do art. 256 deste Código, da data do cometimento da infração;</br>  
+    II - no caso das demais penalidades previstas no art. 256 deste Código, da conclusão do processo administrativo da penalidade que lhe der causa.</br> 
+    § 6º-A. Para fins de aplicação do inciso I do § 6º deste artigo, no caso das autuações que não sejam em flagrante, o prazo será contado da data do conhecimento da infração pelo órgão de trânsito responsável pela aplicação da penalidade, na forma definida pelo Contran.</br>          
+    § 7º O descumprimento dos prazos previstos no § 6º deste artigo implicará a decadência do direito de aplicar a respectiva penalidade.</br>
+    (...)</br>
+    Art. 285. O recurso previsto no art. 283 será interposto perante a autoridade que impôs a penalidade, a qual remetê-lo-á à JARI, que deverá julgá-lo em até trinta dias.</br>
+    § 1º O recurso não terá efeito suspensivo.</br>
+    § 2º A autoridade que impôs a penalidade remeterá o recurso ao órgão julgador, dentro dos dez dias úteis subsequentes à sua apresentação, e, se o entender intempestivo, assinalará o fato no despacho de encaminhamento.</br>
+    § 3º Se, por motivo de força maior, o recurso não for julgado dentro do prazo previsto neste artigo, a autoridade que impôs a penalidade, de ofício, ou por solicitação do recorrente, poderá conceder-lhe efeito suspensivo.</br>
+    § 4º  Na apresentação de defesa ou recurso, em qualquer fase do processo, para efeitos de admissibilidade, não serão exigidos documentos ou cópia de documentos emitidos pelo órgão responsável pela autuação. </br>          
+    § 5º O recurso intempestivo será arquivado. </br>
+    § 6º O recurso de que trata o caput deste artigo deverá ser julgado no prazo de 24 (vinte e quatro) meses, contado do recebimento do recurso pelo órgão julgador.</br>
+    (...)</br>
+    Art. 289. O recurso de que trata o art. 288 deste Código deverá ser julgado no prazo de 24 (vinte e quatro) meses, contado do recebimento do recurso pelo órgão julgador:</br>
+    I - tratando-se de penalidade imposta por órgão ou entidade da União, por colegiado especial integrado pelo Coordenador-Geral da Jari, pelo Presidente da Junta que apreciou o recurso e por mais um Presidente de Junta;</br> 
+    a) (revogada;</br>
+    b) (revogada);</br>
+    II - tratando-se de penalidade imposta por órgão ou entidade de trânsito estadual, municipal ou do Distrito Federal, pelos CETRAN E CONTRANDIFE, respectivamente.</br>
+    Parágrafo único. No caso do inciso I do caput deste artigo:</br>
+    I - quando houver apenas 1 (uma) Jari, o recurso será julgado por seus membros;</br>
+    II - quando necessário, novos colegiados especiais poderão ser formados, compostos pelo Presidente da Junta que apreciou o recurso e por mais 2 (dois) Presidentes de Junta, na forma estabelecida pelo Contran.</br>
+    (...)</br>
+    Art. 289-A. O não julgamento dos recursos nos prazos previstos no § 6º do art. 285 e no caput do art. 289 deste Código ensejará a prescrição da pretensão punitiva.</br>
+    Art. 290-A. Os prazos processuais de que trata este Código não se suspendem, salvo por motivo de força maior devidamente comprovado, nos termos de regulamento do Contran.</br>
+    (...)</br>
+    Art. 338-A. As competências previstas no inciso XV do caput do art. 21 e no inciso XXII do caput do art. 24 deste Código serão atribuídas aos órgãos ou entidades descritos no caput dos referidos artigos a partir de 1º de janeiro de 2024.</br>
+    Parágrafo único. Até 31 de dezembro de 2023, as competências a que se refere o caput deste artigo serão exercidas pelos órgãos e entidades executivos de trânsito dos Estados e do Distrito Federal.</br>
+    </p>`,
+    conteudoOld: `<p></br>
+    (...)</br></br>
+    Art. 20. Compete à Polícia Rodoviária Federal, no âmbito das rodovias e estradas federais:</br>
+    I - cumprir e fazer cumprir a legislação e as normas de trânsito, no âmbito de suas atribuições;</br>
+    II - realizar o patrulhamento ostensivo, executando operações relacionadas com a segurança pública, com o objetivo de preservar a ordem, incolumidade das pessoas, o patrimônio da União e o de terceiros;</br>
+    III - aplicar e arrecadar as multas impostas por infrações de trânsito, as medidas administrativas decorrentes e os valores provenientes de estada e remoção de veículos, objetos, animais e escolta de veículos de cargas superdimensionadas ou perigosas;</br>
+    IV - efetuar levantamento dos locais de acidentes de trânsito e dos serviços de atendimento, socorro e salvamento de vítimas;</br>
+    V - credenciar os serviços de escolta, fiscalizar e adotar medidas de segurança relativas aos serviços de remoção de veículos, escolta e transporte de carga indivisível;</br>
+    VI - assegurar a livre circulação nas rodovias federais, podendo solicitar ao órgão rodoviário a adoção de medidas emergenciais, e zelar pelo cumprimento das normas legais relativas ao direito de vizinhança, promovendo a interdição de construções e instalações não autorizadas;</br>
+    VII - coletar dados estatísticos e elaborar estudos sobre acidentes de trânsito e suas causas, adotando ou indicando medidas operacionais preventivas e encaminhando-os ao órgão rodoviário federal;</br>
+    VIII - implementar as medidas da Política Nacional de Segurança e Educação de Trânsito;</br>
+    IX - promover e participar de projetos e programas de educação e segurança, de acordo com as diretrizes estabelecidas pelo CONTRAN;</br>
+    X - integrar-se a outros órgãos e entidades do Sistema Nacional de Trânsito para fins de arrecadação e compensação de multas impostas na área de sua competência, com vistas à unificação do licenciamento, à simplificação e à celeridade das transferências de veículos e de prontuários de condutores de uma para outra unidade da Federação;</br>
+    XI - fiscalizar o nível de emissão de poluentes e ruído produzidos pelos veículos automotores ou pela sua carga, de acordo com o estabelecido no art. 66, além de dar apoio, quando solicitado, às ações específicas dos órgãos ambientais.</br>
+    XII - aplicar a penalidade de suspensão do direito de dirigir, quando prevista de forma específica para a infração cometida, e comunicar a aplicação da penalidade ao órgão máximo executivo de trânsito da União.</br>
+    (...)</br>
+    Art. 99. Somente poderá transitar pelas vias terrestres o veículo cujo peso e dimensões atenderem aos limites estabelecidos pelo CONTRAN.</br>
+    § 1º O excesso de peso será aferido por equipamento de pesagem ou pela verificação de documento fiscal, na forma estabelecida pelo CONTRAN.</br>
+    § 2º Será tolerado um percentual sobre os limites de peso bruto total e peso bruto transmitido por eixo de veículos à superfície das vias, quando aferido por equipamento, na forma estabelecida pelo CONTRAN.</br>
+    3º Os equipamentos fixos ou móveis utilizados na pesagem de veículos serão aferidos de acordo com a metodologia e na periodicidade estabelecidas pelo CONTRAN, ouvido o órgão ou entidade de metrologia legal.</br>
+    (...)</br>
+    Art. 101.  Ao veículo ou à combinação de veículos utilizados no transporte de carga que não se enquadre nos limites de peso e dimensões estabelecidos pelo Contran, poderá ser concedida, pela autoridade com circunscrição sobre a via, autorização especial de trânsito, com prazo certo, válida para cada viagem ou por período, atendidas as medidas de segurança consideradas necessárias, conforme regulamentação do Contran.</br>
+    § 1º A autorização será concedida mediante requerimento que especificará as características do veículo ou combinação de veículos e de carga, o percurso, a data e o horário do deslocamento inicial.</br>
+    § 2º A autorização não exime o beneficiário da responsabilidade por eventuais danos que o veículo ou a combinação de veículos causar à via ou a terceiros.</br>
+    § 3º Aos guindastes autopropelidos ou sobre caminhões poderá ser concedida, pela autoridade com circunscrição sobre a via, autorização especial de trânsito, com prazo de seis meses, atendidas as medidas de segurança consideradas necessárias.</br>
+    (...)</br>
+    Art. 131.  O Certificado de Licenciamento Anual será expedido ao veículo licenciado, vinculado ao Certificado de Registro de Veículo, em meio físico e/ou digital, à escolha do proprietário, de acordo com o modelo e com as especificações estabelecidos pelo Contran. </br>
+    § 1º O primeiro licenciamento será feito simultaneamente ao registro.</br>
+    § 2º O veículo somente será considerado licenciado estando quitados os débitos relativos a tributos, encargos e multas de trânsito e ambientais, vinculados ao veículo, independentemente da responsabilidade pelas infrações cometidas.</br>
+    § 3º Ao licenciar o veículo, o proprietário deverá comprovar sua aprovação nas inspeções de segurança veicular e de controle de emissões de gases poluentes e de ruído, conforme disposto no art. 104.</br>
+    § 4º  As informações referentes às campanhas de chamamento de consumidores para substituição ou reparo de veículos não atendidas no prazo de 1 (um) ano, contado da data de sua comunicação, deverão constar do Certificado de Licenciamento Anual.</br>
+    § 5º  Após a inclusão das informações de que trata o § 4º deste artigo no Certificado de Licenciamento Anual, o veículo somente será licenciado mediante comprovação do atendimento às campanhas de chamamento de consumidores para substituição ou reparo de veículos.</br>
+    § 6º O Contran regulamentará a inserção dos dados no Certificado de Licenciamento Anual referentes às campanhas de chamamento de consumidores para substituição ou reparo de veículos realizadas antes da data prevista no § 4º deste artigo.</br> 
+    (...)</br>
+    Art. 257. As penalidades serão impostas ao condutor, ao proprietário do veículo, ao embarcador e ao transportador, salvo os casos de descumprimento de obrigações e deveres impostos a pessoas físicas ou jurídicas expressamente mencionados neste Código.</br>
+    § 1º Aos proprietários e condutores de veículos serão impostas concomitantemente as penalidades de que trata este Código toda vez que houver responsabilidade solidária em infração dos preceitos que lhes couber observar, respondendo cada um de per si pela falta em comum que lhes for atribuída.</br>
+    § 2º Ao proprietário caberá sempre a responsabilidade pela infração referente à prévia regularização e preenchimento das formalidades e condições exigidas para o trânsito do veículo na via terrestre, conservação e inalterabilidade de suas características, componentes, agregados, habilitação legal e compatível de seus condutores, quando esta for exigida, e outras disposições que deva observar.</br>
+    § 3º Ao condutor caberá a responsabilidade pelas infrações decorrentes de atos praticados na direção do veículo.</br>
+    § 4º O embarcador é responsável pela infração relativa ao transporte de carga com excesso de peso nos eixos ou no peso bruto total, quando simultaneamente for o único remetente da carga e o peso declarado na nota fiscal, fatura ou manifesto for inferior àquele aferido.</br>
+    § 5º O transportador é o responsável pela infração relativa ao transporte de carga com excesso de peso nos eixos ou quando a carga proveniente de mais de um embarcador ultrapassar o peso bruto total.</br>
+    § 6º O transportador e o embarcador são solidariamente responsáveis pela infração relativa ao excesso de peso bruto total, se o peso declarado na nota fiscal, fatura ou manifesto for superior ao limite legal.</br>
+    § 7º  Quando não for imediata a identificação do infrator, o principal condutor ou o proprietário do veículo terá o prazo de 30 (trinta) dias, contado da notificação da autuação, para apresentá-lo, na forma em que dispuser o Contran, e, transcorrido o prazo, se não o fizer, será considerado responsável pela infração o principal condutor ou, em sua ausência, o proprietário do veículo.</br>
+    § 8º Após o prazo previsto no parágrafo anterior, não havendo identificação do infrator e sendo o veículo de propriedade de pessoa jurídica, será lavrada nova multa ao proprietário do veículo, mantida a originada pela infração, cujo valor é o da multa multiplicada pelo número de infrações iguais cometidas no período de doze meses.</br>
+    § 9º O fato de o infrator ser pessoa jurídica não o exime do disposto no § 3º do art. 258 e no art. 259.</br>
+    § 10.  O proprietário poderá indicar ao órgão executivo de trânsito o principal condutor do veículo, o qual, após aceitar a indicação, terá seu nome inscrito em campo próprio do cadastro do veículo no Renavam.</br>            
+    § 11.  O principal condutor será excluído do Renavam:</br>               
+    I -  quando houver transferência de propriedade do veículo;</br>               
+    II - mediante requerimento próprio ou do proprietário do veículo;</br>              
+    III - a partir da indicação de outro principal condutor.</br>
+    (...)</br>
+    Art. 271. O veículo será removido, nos casos previstos neste Código, para o depósito fixado pelo órgão ou entidade competente, com circunscrição sobre a via.</br>
+    § 1o A restituição do veículo removido só ocorrerá mediante prévio pagamento de multas, taxas e despesas com remoção e estada, além de outros encargos previstos na legislação específica.</br>
+    § 2o A liberação do veículo removido é condicionada ao reparo de qualquer componente ou equipamento obrigatório que não esteja em perfeito estado de funcionamento.</br>
+    § 3º  Se o reparo referido no § 2º demandar providência que não possa ser tomada no depósito, a autoridade responsável pela remoção liberará o veículo para reparo, na forma transportada, mediante autorização, assinalando prazo para reapresentação.</br>
+    § 4º  Os serviços de remoção, depósito e guarda de veículo poderão ser realizados por órgão público, diretamente, ou por particular contratado por licitação pública, sendo o proprietário do veículo o responsável pelo pagamento dos custos desses serviços.</br>          
+    § 5o O proprietário ou o condutor deverá ser notificado, no ato de remoção do veículo, sobre as providências necessárias à sua restituição e sobre o disposto no art. 328, conforme regulamentação do CONTRAN.</br>
+    § 6º  Caso o proprietário ou o condutor não esteja presente no momento da remoção do veículo, a autoridade de trânsito, no prazo de 10 (dez) dias contado da data da remoção, deverá expedir ao proprietário a notificação prevista no § 5º, por remessa postal ou por outro meio tecnológico hábil que assegure a sua ciência, e, caso reste frustrada, a notificação poderá ser feita por edital.</br>                    
+    § 7o A notificação devolvida por desatualização do endereço do proprietário do veículo ou por recusa desse de recebê-la será considerada recebida para todos os efeitos.</br>               
+    § 8o Em caso de veículo licenciado no exterior, a notificação será feita por edital.</br> 
+    § 9º  Não caberá remoção nos casos em que a irregularidade for sanada no local da infração.</br>
+    § 10.  O pagamento das despesas de remoção e estada será correspondente ao período integral, contado em dias, em que efetivamente o veículo permanecer em depósito, limitado ao prazo de 6 (seis) meses.</br>          
+    § 11.  Os custos dos serviços de remoção e estada prestados por particulares poderão ser pagos pelo proprietário diretamente ao contratado.</br>               
+    § 12.  O disposto no § 11 não afasta a possibilidade de o respectivo ente da Federação estabelecer a cobrança por meio de taxa instituída em lei.</br>                 
+    § 13.  No caso de o proprietário do veículo objeto do recolhimento comprovar, administrativa ou judicialmente, que o recolhimento foi indevido ou que houve abuso no período de retenção em depósito, é da responsabilidade do ente público a devolução das quantias pagas por força deste artigo, segundo os mesmos critérios da devolução de multas indevidas.</br> 
+    (...)</br>
+    Art. 282. Caso a defesa prévia seja indeferida ou não seja apresentada no prazo estabelecido, será aplicada a penalidade e expedida notificação ao proprietário do veículo ou ao infrator, no prazo máximo de 180 (cento e oitenta) dias, contado da data do cometimento da infração, por remessa postal ou por qualquer outro meio tecnológico hábil que assegure a ciência da imposição da penalidade.</br>
+    § 1º A notificação devolvida por desatualização do endereço do proprietário do veículo será considerada válida para todos os efeitos.</br>
+    § 2º A notificação a pessoal de missões diplomáticas, de repartições consulares de carreira e de representações de organismos internacionais e de seus integrantes será remetida ao Ministério das Relações Exteriores para as providências cabíveis e cobrança dos valores, no caso de multa.</br>
+    § 3º Sempre que a penalidade de multa for imposta a condutor, à exceção daquela de que trata o § 1º do art. 259, a notificação será encaminhada ao proprietário do veículo, responsável pelo seu pagamento.</br>
+    § 4º Da notificação deverá constar a data do término do prazo para apresentação de recurso pelo responsável pela infração, que não será inferior a trinta dias contados da data da notificação da penalidade.</br>  
+    § 5º No caso de penalidade de multa, a data estabelecida no parágrafo anterior será a data para o recolhimento de seu valor.</br>
+    § 6º  Em caso de apresentação da defesa prévia em tempo hábil, o prazo previsto no caput deste artigo será de 360 (trezentos e sessenta) dias.</br>
+    § 7º  O descumprimento dos prazos previstos no caput ou no § 6º deste artigo implicará a decadência do direito de aplicar a penalidade.</br>
+    (...)</br>
+    Art. 285. O recurso previsto no art. 283 será interposto perante a autoridade que impôs a penalidade, a qual remetê-lo-á à JARI, que deverá julgá-lo em até trinta dias.</br>
+    § 1º O recurso não terá efeito suspensivo.</br>
+    § 2º A autoridade que impôs a penalidade remeterá o recurso ao órgão julgador, dentro dos dez dias úteis subsequentes à sua apresentação, e, se o entender intempestivo, assinalará o fato no despacho de encaminhamento.</br>
+    § 3º Se, por motivo de força maior, o recurso não for julgado dentro do prazo previsto neste artigo, a autoridade que impôs a penalidade, de ofício, ou por solicitação do recorrente, poderá conceder-lhe efeito suspensivo.</br>
+    § 4º  Na apresentação de defesa ou recurso, em qualquer fase do processo, para efeitos de admissibilidade, não serão exigidos documentos ou cópia de documentos emitidos pelo órgão responsável pela autuação.</br>
+    (...)</br>
+    Art. 289. O recurso de que trata o artigo anterior será apreciado no prazo de trinta dias:</br>
+    I - tratando-se de penalidade imposta por órgão ou entidade da União, por colegiado especial integrado pelo Coordenador-Geral da Jari, pelo Presidente da Junta que apreciou o recurso e por mais um Presidente de Junta;</br>
+    a) (revogada);</br>
+    b) (revogada);</br>
+    II - tratando-se de penalidade imposta por órgão ou entidade de trânsito estadual, municipal ou do Distrito Federal, pelos CETRAN E CONTRANDIFE, respectivamente.</br>
+    Parágrafo único. No caso do inciso I do caput deste artigo, quando houver apenas uma Jari, o recurso será julgado por seus membros.</br>
+    </p>`
+
 },
 {
     id:10,
