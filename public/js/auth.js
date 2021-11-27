@@ -5,22 +5,24 @@ window.Login = (login, password) => {
     //verifica se existe dados
     if (login != "" && password != "") {
         //busca o usuario no array de usuarios 
-        let userObjeto ={}
-        users.forEach(item =>{
-            if(item.nome === login && item.senha === password){
-            userObjeto.nome = item.nome;
-            userObjeto.senha = item.senha;
-        }});
+        let userObjeto = {}
+        users.forEach(item => {
+            if (item.email === login && item.senha === password) {
+                userObjeto.email = item.email;
+                userObjeto.senha = item.senha;
+                userObjeto.nome = item.nome;
+            }
+        });
         //Olha se existe usuário para logar
 
         let parserObj = localStorage.getItem('user')
-          let objLocal = JSON.parse(parserObj);
-          if(objLocal) {
-              userObjeto = objLocal
-          }else{
-              localStorage.setItem('user',JSON.stringify(userObjeto))
-          }
-            if (userObjeto) {
+        let objLocal = JSON.parse(parserObj);
+        if (objLocal) {
+            userObjeto = objLocal
+        } else {
+            localStorage.setItem('user', JSON.stringify(userObjeto))
+        }
+        if (userObjeto) {
             document.getElementById('register-alert').classList.remove('d-flex')
             document.getElementById('register-alert').classList.add('d-none')
             document.getElementById('alert').classList.remove('justify-content-between')

@@ -6,11 +6,11 @@ import DetalhesLeiOld from '../../views/DetailsOld.js';
 import Page2 from '../../views/Page2.js';
 import Page3 from '../../views/Page3.js';
 
-let userLogado = localStorage.getItem('userAuth');
+let userLogado = localStorage.getItem('user');
 
 let userObjeto = JSON.parse(userLogado)
 
-let existUser = userObjeto === null  ? false : true
+let existUser = userObjeto === null ? false : true
 
 if (existUser) {
   document.getElementById('register-alert').classList.remove('d-flex')
@@ -42,9 +42,14 @@ window.gerarPdf = () => {
   mywindow.close();
 
 }
-window.loggof = ()=>{
-  localStorage.removeItem('userAuth')
+window.loggof = () => {
+  if (confirm('Deseja sair?')) {
+    localStorage.removeItem('user')
   document.location.reload()
+  } else {  
+    return
+  }
+
 }
 window.openWord = () => {
   let filename = null
@@ -86,14 +91,14 @@ window.detailView = id => {
   const lei = Leis.find(item => item.id === id)
   document.getElementById('main').innerHTML = DetalhesLei(lei)
 }
-document.getElementById('main').innerHTML = Home(Leis)
+document.getElementById('main').innerHTML = `<h1>Últimas atualizações</h1> ${Home(Leis)}`
 
 
 //Funçoes de navegações 
 
 
 window.toHome = () => {
-  document.getElementById('main').innerHTML = Home(Leis)
+  document.getElementById('main').innerHTML =  `<h1>Últimas atualizações</h1> ${Home(Leis)}`
 }
 
 window.toPage2 = () => {
@@ -120,7 +125,11 @@ window.filtrar = (e) => {
     }
   }
 
-  let filtro = filtroSelecionado !== "chave" ? Leis?.filter(item => item[filtroSelecionado] === valueFilter) :
+  let filtro = filtroSelecionado !== "chave" ? Leis?.filter(item => { 
+    if (item[filtroSelecionado] === valueFilter || item['atualizado'] === valueFilter) { 
+      return item 
+    } 
+  }) :
 
     Leis?.filter(texto => {
       if (texto.descricao.toLocaleLowerCase().includes(valueFilter.toLowerCase())) {
@@ -130,6 +139,6 @@ window.filtrar = (e) => {
       }
     })
 
-  document.getElementById('main').innerHTML = filtro.length > 0 ? Home(filtro) : `<h1>Nenhum resultado encontrado!`
+  document.getElementById('main').innerHTML = filtro.length > 0 ? `<h1>Últimas atualizações</h1> ${Home(filtro)}` : `<h1>Nenhum resultado encontrado!`
 
 }
