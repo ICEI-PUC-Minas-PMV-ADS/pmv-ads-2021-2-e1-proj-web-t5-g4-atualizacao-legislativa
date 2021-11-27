@@ -59,12 +59,13 @@
     <form id="filtro" class="form-inline">
       <input id="filter-input" class="form-control mr-sm-2" type="date" placeholder="Search" aria-label="Search" />
       <div class="custom-control custom-radio custom-control-inline">
-        <input  type="radio" onclick="mudarInputData(event)" id="customRadioInline1" checked="true" name="radio" value="data" class="custom-control-input">
+        <input  type="radio" onclick="mudarInputData(event)" id="customRadioInline1" checked="true" name="radio" value="criado" class="custom-control-input">
         <label class="custom-control-label" for="customRadioInline1">Data</label>
       </div>
       <div class="custom-control custom-radio custom-control-inline">
         <input type="radio" id="customRadioInline2" name="radio" onclick="mudarInputID(event)"   value="chave" class="custom-control-input">
-        <label class="custom-control-label" for="customRadioInline2">Chave</label>
+        <label class="custom-control-label" for="customRadioInline2">Palavra-Chave | Nº
+        </label>
       </div>
 
       <button id="btn-filter" class="my-2 btn btn-outline-primary my-sm-0"  onclick="filtrar(event)">Search</button>
@@ -74,7 +75,7 @@
   <!-- Close Header  -->
 
   <!-- Main -->
-  <main id="main" class="mb-4 container-fluid">Últimas atualizações
+  <main id="main" class="mb-4 container-fluid">
 
 
   </main>

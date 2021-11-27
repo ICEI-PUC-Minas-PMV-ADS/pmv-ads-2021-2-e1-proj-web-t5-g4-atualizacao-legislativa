@@ -1,7 +1,7 @@
 const leis = [{
-    id:1,
+    id: 1,
     descricao: "Dispõe sobre o Conselho Nacional dos Direitos da Pessoa com Deficiência.",
-    conteudo:`<p></br>
+    conteudo: `<p></br>
     Alteração pelo DECRETO 10.812 DE 27 DE SETEMBRO DE 2021 e pelo DECRETO 10.841 DE 20 DE OUTUBRO DE 2021.</br></br>
     (...)</br></br>
     Art. 2º  Ao Conselho Nacional dos Direitos da Pessoa com Deficiência compete:</br>
@@ -100,8 +100,8 @@ const leis = [{
     III - terão caráter temporário e duração não superior a um ano; e</br>
     IV - estarão limitadas a três operando simultaneamente.</br>
    </p> `,
-   
-   conteudoOld:`<p>
+
+    conteudoOld: `<p>
    (...)</br></br>
    Art. 2º  Ao Conselho Nacional dos Direitos da Pessoa com Deficiência compete:</br>
    I - acompanhar pela implantação da Política Nacional para a Inclusão da Pessoa com Deficiência; </br>
@@ -175,7 +175,7 @@ const leis = [{
    I - Plenário;</br>
    II - Presidência;</br>
    III - Presidência Ampliada;</br>
-   IV - Comissões Permanentes;</br>
+   IV - <b style="color:red"/>Comissões Permanentes;</b></br>
    V - Comissões Temáticas, com o objetivo de estudar e elaborar propostas sobre temas específicos; e</br>
    VI - Secretaria Executiva.</br>
    § 1º  A Presidência Ampliada a que se refere o inciso III do caput é composta:</br>
@@ -199,10 +199,11 @@ const leis = [{
    IV - estarão limitadas a três operando simultaneamente.</p></br>
    `,
     titulo: "LEI Nº 10.177, DE 16 DE DEZEMBRO DE 2019",
-    data:'2021-10-20'
+    criado: '2021-10-20',
+    atualizado: '2019-12-16',
 },
 {
-    id:2,
+    id: 2,
     descricao: "Dispõe sobre as sanções aplicáveis em virtude da prática de atos de improbidade administrativa, de que trata o § 4º do art. 37 da Constituição Federal; e dá outras providências.",
     conteudo: `<p></br>
     Alteração pela LEI Nº 14.230, DE 25 DE OUTUBRO DE 2021.</br></br>
@@ -582,14 +583,15 @@ const leis = [{
     (...)</br>
     </p>`,
     titulo: "LEI Nº 8.429, DE 2 DE JUNHO DE 1992",
-    data:'2021-10-25'
+    criado: '2021-10-25',
+    atualizado: '1992-05-2'
 },
 {
-    id:3,
-    //chaves:["ALTERAÇÃO","CONSTITUIÇÃO FEDERAL","DISTRIBUIÇÃO","RECURSOS FINANCEIROS"],
+    id: 3,
     descricao: "'(...) instituir um Estado Democrático, destinado a assegurar o exercício dos direitos sociais e individuais, a liberdade, a segurança, o bem-estar, (...)'",
     titulo: "CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL DE 1988",
-    data:'2021-10-27',
+    criado: '1988-10-5',
+    atualizado: '2021-10-27',
     conteudo: `<p></br>
     Alteração pela EMENDA CONSTITUCIONAL Nº 112, DE 27 DE OUTUBRO DE 2021.</br></br>
     (...)</br></br>
@@ -626,10 +628,11 @@ const leis = [{
     </p>`
 },
 {
-    id:4,
+    id: 4,
     descricao: "Lei de licitações e contratos administrativos.",
     titulo: "LEI 14.113 DE 25 DE DEZEMBRO DE 2020",
-    data:'2021-11-11',
+    criado: '2021-11-11',
+    atualizado: '2020-12-25',
     conteudo: `<p><br>
     Alteração pela MEDIDA PROVISÓRIA Nº 1.074 DE 11 DE NOVEMBRO DE 2021.</br></br>
     (...)</br></br>
@@ -640,7 +643,6 @@ const leis = [{
     II - o cronograma mensal de pagamentos da complementação-VAAT, referido no § 2º do art. 16 desta Lei iniciar-se-á em julho e será ajustado pelo Tesouro Nacional, de modo que seja cumprido o prazo previsto para o seu pagamento integral; </br>
     III - o Poder Executivo federal publicará até 30 de junho as estimativas previstas nos incisos V e VI do caput do art. 16 desta Lei relativas às transferências da complementação-VAAT em 2021. </br>
     </p>`,
-
     conteudoOld: `<p></br>
     (...)</br></br>
     Art. 41.  A complementação da União referida no art. 4º desta Lei será implementada progressivamente até alcançar a proporção estabelecida no art. 5º desta Lei, a partir do primeiro ano subsequente ao da vigência desta Lei, nos seguintes valores mínimos: </br>
@@ -652,10 +654,11 @@ const leis = [{
     </p>`
 },
 {
-    id:5,
+    id: 5,
     descricao: "'Regulamenta o disposto no inciso XI do caput do art. 5º da Lei nº 11.771, de 17 de setembro de 2008, que dispõe sobre a Política Nacional de Turismo, (...)'",
     titulo: "DECRETO Nº 9.763, DE 11 DE ABRIL DE 2019",
-    data: '2021-10-14',
+    criado: '2021-10-14',
+    atualizado: '2019-04-11',
     conteudo: `<p></br>
     Alteração pelo DECRETO Nº 10.837, DE 14 DE OUTUBRO DE 2021.</br></br>
     (...)</br></br>
@@ -698,10 +701,11 @@ const leis = [{
     </p>`
 },
 {
-    id:6,
+    id: 6,
     descricao: "'Altera a Lei nº 4.118, de 27 de agosto de 1962, e a Lei nº 5.740, de 1 de dezembro de 1971, que criaram, respectivamente, a Comissão Nacional de Energia Nuclear - CNEN e a (...)'",
     titulo: "LEI Nº 6.189, DE 16 DE DEZEMBRO DE 1974",
-    data: `2021-10-15`,
+    criado: `2021-10-15`,
+    atualizado: '1974-12-16',
     conteudo: `<p></br>
     Alteração pela LEI Nº 14.222, DE 15 DE OUTUBRO DE 2021.</br></br>
     (...)</br></br>
@@ -796,12 +800,13 @@ const leis = [{
     (...)</br>
     Art. 19. Além das atribuições que lhe são conferidas, caberá à CNEN e às suas subsidiárias ou controladas a comercialização exclusiva de materiais nucleares compreendidos no âmbito do monopólio, observado o art. 16 desta Lei.</br>
     </p>`
-    
+
 }, {
-    id:7,
+    id: 7,
     descricao: "Dispõe sobre a composição e a competência do Conselho da Justiça Federal, revoga a Lei no 8.472, de 14 de outubro de 1992, e dá outras providências.",
     titulo: "LEI Nº 11.798, DE  29 DE OUTUBRO DE 2008",
-    data: `2021-10-20`,
+    criado: `2021-10-20`,
+    atualizado: '2008-10-29',
     conteudo: `<p></br>
     Alteração pela LEI Nº 14.226 DE 20 DE OUTUBRO DE 2021.</br></br>
     (...)</br>
@@ -837,10 +842,11 @@ const leis = [{
     </p>`
 },
 {
-    id:8,
+    id: 8,
     descricao: "Regulamenta a tributação, a fiscalização, a arrecadação e a administração do Imposto sobre a Renda e Proventos de Qualquer Natureza.",
     titulo: "DECRETO Nº 9.580, DE 22 DE NOVEMBRO DE 2018",
-    data: `2021-11-10`,
+    criado: `2021-11-10`,
+    atualizado: '2018-11-22',
     conteudo: `<p></br>
     Alteração pelo DECRETO Nº 10.854, DE NOVEMBRO DE 2021.</br></br>
     (...)</br></br>
@@ -865,10 +871,11 @@ const leis = [{
 
 },
 {
-    id:9,
+    id: 9,
     descricao: "Institui o Código de Trânsito Brasileiro",
     titulo: "LEI Nº 9.503, DE 23 DE SETEMBRO DE 1997",
-    data: `2021-10-21`,
+    criado: `2021-10-21`,
+    atualizado: '1997-09-23',
     conteudo: `<p></br>
     Alteração pela LEI Nº 14.229, DE 21 DE OUTUBRO DE 2021.</br></br>
     (...)</br></br>
@@ -1066,12 +1073,12 @@ const leis = [{
 
 },
 {
-    id:10,
+    id: 10,
     descricao: "Daniel sobre a proibição da eliminação de cães e gatos pelos órgãos de controle de zoonoses, canis públicos e estabelecimentos oficiais congêneres; e dá outras providências.",
     titulo: "LEI Nº 14.228, DE 20 DE OUTUBRO DE 2021"
 },
 {
-    id:11,
+    id: 11,
     descricao: "Daniel sobre a proibição da eliminação de cães e gatos pelos órgãos de controle de zoonoses, canis públicos e estabelecimentos oficiais congêneres; e dá outras providências.",
     titulo: "LEI Nº 14.228, DE 20 DE OUTUBRO DE 2021"
 }

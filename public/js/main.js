@@ -4,7 +4,7 @@ const gerarComponenteLogin = () => {
   <h1 class="text-primary fs-1 mt-4 p-2 ">Login</h1>
   <form  id="formulario"  class="container d-flex flex-column p-4" onsubmit="onClickLogin(event)">
     <div class="mb-3">
-      <input type="text" class="form-control" id="login" name="login" placeholder="Login"  autocomplete="off">
+      <input type="text" class="form-control" id="login" name="login" placeholder="Email"  autocomplete="off">
     </div>
     <div class="mb-3">
       <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha"  autocomplete="off">
@@ -49,7 +49,7 @@ const mudarInputID = (e) =>{
   <h1 class="text-primary fs-1 mt-4 p-2 ">Cadastro</h1>
                 <form id="formulario" onsubmit="onSubmitCadastro(event)" class="container d-flex flex-column p-4" >
                   <div class="mb-3">
-                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome"  autocomplete="off">
+                    <input type="email" class="form-control" id="nome" name="nome" placeholder="Nome"  autocomplete="off">
                   </div>
                   <div class="mb-3">
                     <input type="email" class="form-control" id="email" name="email" placeholder="Email"  autocomplete="off"/>
@@ -150,7 +150,7 @@ const mudarInputID = (e) =>{
       let objVerificaSenha = {};
       label.forEach((item) => {
         objVerificaSenha[item] = document.getElementById(item).value;
-        if (document.getElementById(item).value === "") {
+        if (document.getElementById(item).value === "") {s
           document.getElementById(item).value = "Preencha o campo " + item;
           document.getElementById(item).style.color = "red";
         } else {
