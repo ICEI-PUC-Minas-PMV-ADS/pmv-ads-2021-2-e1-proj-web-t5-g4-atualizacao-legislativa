@@ -63,7 +63,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 
 <br>
 
-| Caso de teste	CT-07 | Cadastro de usuário |
+| Caso de teste	| CT-07 Cadastro de usuário |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Requisitos associados |	RF-007: o site deve permitir que o usuário faça seu cadastro, informando nome, email e senha. |
 | Objetivo do teste |	Verificar se o site efetua o cadastro do usuário, guardando as informações sobre ele e permitindo o acesso a outras funcionalidades do site. |
