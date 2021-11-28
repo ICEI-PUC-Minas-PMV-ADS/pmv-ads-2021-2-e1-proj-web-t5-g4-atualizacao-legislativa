@@ -5,7 +5,7 @@ const leis = [{
     Alteração pelo DECRETO 10.812 DE 27 DE SETEMBRO DE 2021 e pelo DECRETO 10.841 DE 20 DE OUTUBRO DE 2021.</br></br>
     (...)</br></br>
     Art. 2º  Ao Conselho Nacional dos Direitos da Pessoa com Deficiência compete:</br>
-    I - acompanhar a implementação da Política Nacional para a Inclusão da Pessoa com Deficiência;</br>
+    <b>I - acompanhar a implementação da Política Nacional para a Inclusão da Pessoa com Deficiência;</b></br>
     II - acompanhar o planejamento e avaliar a execução das políticas setoriais de educação, saúde, trabalho, assistência social, transporte, cultura, turismo, desporto, lazer, política urbana, reabilitação e outras políticas relativas à pessoa com deficiência;</br>
     III - acompanhar a elaboração e a execução da proposta orçamentária do Ministério da Mulher, da Família e dos Direitos Humanos, de modo a sugerir as modificações necessárias à consecução da Política Nacional para a Inclusão da Pessoa com Deficiência;</br>
     IV - formular propostas sobre a efetivação do sistema descentralizado e participativo de defesa dos direitos da pessoa com deficiência;</br>
