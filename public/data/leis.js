@@ -19,28 +19,34 @@ const leis = [{
     XI - participar do monitoramento da promoção, da proteção e da implementação no País da Convenção Internacional sobre os Direitos da Pessoa com Deficiência, da Lei nº 13.146, de 2015, e das demais legislações aplicáveis; e</br>
     XII - realizar, com o apoio do Ministério da Mulher, da Família e dos Direitos Humanos, a cada quatro anos, a Conferência Nacional dos Direitos da Pessoa com Deficiência, observada a disponibilidade orçamentária e financeira e o disposto em ato do Ministro de Estado do Ministério da Mulher, da Família e dos Direitos Humanos</br>
     </br>
-    Art. 3º  O Conselho Nacional dos Direitos da Pessoa com Deficiência, observada a paridade entre os representantes do poder executivo e da sociedade civil organizada, é composto por membros dos seguintes órgãos e entidades:</br>
-    I - representantes dos seguintes órgãos e entidades governamentais:</br>
+    <b>Art. 3º  O Conselho Nacional dos Direitos da Pessoa com Deficiência, observada a paridade entre os representantes do poder executivo e da sociedade civil organizada, é composto por membros dos seguintes órgãos e entidades:</br>
+    I - representantes dos seguintes órgãos e entidades governamentais:</b></br>
     a) um da Casa Civil da Presidência da República;</br>
     b) um do Ministério da Justiça e Segurança Pública;</br>
     c) um do Ministério das Relações Exteriores;</br>
-    d) da Secretaria Especial de Previdência e Trabalho do Ministério da Economia:</br>
+    <b>d) do Ministério do Trabalho e Previdência:</b></br>
+    1. um da Secretaria de Previdência; e</br>
+    2. um da Secretaria da Trabalho;</br>
     f) um do Ministério da Educação;</br>
     g) do Ministério da Cidadania:</br>
     1. um da Secretaria Especial de Desenvolvimento Social; e</br>
     2. um da Secretaria Especial do Esporte;</br>
     h) um do Ministério do Desenvolvimento Regional;</br>
     i) um do Ministério da Saúde;</br>
-    j) um do Ministério da Ciência, Tecnologia, Inovações e Comunicações;</br>
-    k) dois do Ministério do Turismo, dentre os quais um da Secretaria Especial de Cultura do Ministério do Turismo;</br>
-    l) do Ministério da Mulher, da Família e dos Direitos Humanos:</br>
-    1. um da Secretaria Nacional dos Direitos da Pessoa com Deficiência; e</br>
-    2. um da Secretaria Nacional de Políticas para as Mulheres;
-    m) Conselhos Estaduais e Distrital dos Direitos da Pessoa com Deficiência; e</br>
-    n) Conselhos Municipais dos Direitos da Pessoa com Deficiência; </br>
+    <b>j) um do Ministério da Comunicações;</b></br>
+    <b>k) um do Ministério da Ciência, Tecnologia e Inovações;</b></br>
+    <b>l) do Ministério da Mulher, da Família e dos Direitos Humanos:</b></br>
+    <b>1. um da Secretaria Nacional dos Direitos da Pessoa com Deficiência; e</br>
+    <b>2. um da Secretaria Nacional de Políticas para as Mulheres;</b></br>
+    <b>3. um da Secretaria Nacional da Proteção Global;</b></br>
+    <b>m) Conselhos Estaduais e Distrital dos Direitos da Pessoa com Deficiência; e</br>
+    <b>1. um da Secretaria Nacional dos Direitos da Pessoa com Deficiência;</b></br>      
+    <b>2. um da Secretaria Nacional de Políticas para as Mulheres; e</b></br>         
+    <b>3. um da Secretaria Nacional de Proteção Global;</b></br>
+    <b>n) (Revogado);</b></br>
     </br>
     II - representantes da sociedade civil, dentre os quais:</br>
-    a) treze de organizações nacionais para pessoa com deficiência;</br>
+    <b>a) treze de organizações nacionais representativas de pessoa com deficiência;</b></br>
     a) treze de organizações nacionais representativas de pessoa com deficiência;         (Redação dada pelo Decreto nº 10.841, de 2021)</br>
     b) um de organização nacional de empregadores;</br>
     c) um de organização nacional de trabalhadores;</br>
@@ -52,24 +58,22 @@ const leis = [{
     </br>
     Art. 4º  O Conselho Nacional dos Direitos da Pessoa com Deficiência será dirigido por um Presidente, ou por seu Vice-Presidente nas suas ausências ou impedimentos.</br>
     § 1º  A escolha do Presidente e do Vice-Presidente ocorrerá mediante eleição dentre seus membros, por voto da maioria absoluta, para mandato de três anos.</br>
-    § 2º  Fica assegurada a representação do Governo e da sociedade civil na Presidência e na Vice-Presidência do Conselho Nacional dos Direitos da Pessoa com Deficiência e a alternância dessas representações em cada mandato, observado o regimento interno do Conselho.</br>
-    § 2º  Fica assegurada a representação do Governo e da sociedade na Presidência e na Vice-Presidência do Conselho Nacional dos Direitos da Pessoa com Deficiência e a alternância dessas representações em cada mandato, observado o regimento interno do Conselho.         (Redação dada pelo Decreto nº 10.812, de 2021)</br>
-    </br>
+    <b>§ 2º  Fica assegurada a representação do Governo e da sociedade na Presidência e na Vice-Presidência do Conselho Nacional dos Direitos da Pessoa com Deficiência e a alternância dessas representações em cada mandato, observado o regimento interno do Conselho.<b></br>
     </br>
     (...)</br>
     </br>
-    Art. 6º  As organizações nacionais para pessoa com deficiência a que se refere a alínea “a” do inciso II do caput do art. 3º serão escolhidas dentre aquelas que atuam nas seguintes áreas e na seguinte proporção:</br>
+    <b>Art. 6º  As organizações nacionais para pessoa com deficiência a que se refere a alínea “a” do inciso II do caput do art. 3º serão escolhidas dentre aquelas que atuam nas seguintes áreas e na seguinte proporção:</b></br>
     I - um da área de transtorno do espectro autista;</br>
     II - um da área de deficiência auditiva ou surdez;</br>
-    III - dois da área de deficiência física; </br>
+    <b>III - três da área de deficiência física; </b></br>
     IV - dois da área da deficiência mental ou intelectual;</br>
     V - dois da área de deficiência decorrente de causas patológicas ou doenças raras;</br>
     VI - dois da área da deficiência visual;</br>
     VII - um da área de deficiências múltiplas; e</br>
     VIII - um da área de síndromes.</br>
-    Parágrafo único.  Considera-se organização nacional para pessoa com deficiência a entidade privada sem fins lucrativos e de âmbito nacional, com filiais em, no mínimo, cinco Unidades da Federação, distribuídas, no mínimo, por três regiões do País.
+    <b>Parágrafo único.  Considera-se organização nacional para pessoa com deficiência a entidade privada sem fins lucrativos e de âmbito nacional, com filiais em, no mínimo, cinco Unidades da Federação, distribuídas, no mínimo, por três regiões do País.</b></br>
     </br>
-    Art. 7º  O regulamento do processo seletivo para a escolha das organizações referidas nas alíneas “a”, “b”, “c” e “d” do inciso II do caput do art. 3º será elaborado pelo Ministério da Mulher, da Família e dos Direitos Humanos e divulgado por meio de edital público, publicado no Diário Oficial da União com antecedência mínima de noventa dias em relação ao término do mandato dos membros que estejam em exercício.</br>
+    <b>Art. 7º  O regulamento do processo seletivo para a escolha das organizações referidas nas alíneas “a”, “b”, “c” e “d” do inciso II do caput do art. 3º será elaborado pelo Ministério da Mulher, da Família e dos Direitos Humanos e divulgado por meio de edital público, publicado no Diário Oficial da União com antecedência mínima de noventa dias em relação ao término do mandato dos membros que estejam em exercício.</b></br>
     </br>
     (...)</br>
     </br>
@@ -88,15 +92,16 @@ const leis = [{
     I - a Comissão de Políticas Públicas, com o objetivo de subsidiar o Conselho no exercício das competências a que se referem os incisos I, II, VIII e IX do caput do art. 2º;</br>
     II - a Comissão de Orçamento e Finanças Públicas, com o objetivo de subsidiar o Conselho no exercício das competências a que se referem os incisos III, VIII e IX do caput do art. 2º;</br>
     III - a Comissão de Articulação de Conselhos, com o objetivo de subsidiar o Conselho no exercício das competências a que se referem os incisos IV e V do caput do art. 2º;</br>
-    IV - a Comissão de Comunicação Social, com o objetivo de subsidiar o Conselho no exercício das competências a que se referem os incisos VI e VII do caput do art. 2º; e</br>
-    V - a Comissão de Acompanhamento e Monitoramento da Convenção sobre os Direitos da Pessoa com Deficiência e da Lei nº 13.146, de 6 de julho de 2015, com o objetivo de subsidiar o Conselho no exercício das competências a que se referem os incisos XI e XII do caput do art. 2º.</br>
+    <b>IV - a Comissão de Comunicação Social, com o objetivo de subsidiar o Conselho no exercício das competências a que se referem os incisos VI e VII do caput do art. 2º; e</b></br>
+    <b>V - a Comissão de Acompanhamento e Monitoramento da Convenção sobre os Direitos da Pessoa com Deficiência e da Lei nº 13.146, de 6 de julho de 2015, com o objetivo de subsidiar o Conselho no exercício das competências a que se referem os incisos XI e XII do caput do art. 2º.<b></br>
+    <b>VI - a Comissão de Defesa e Proteção dos Direitos das Pessoas com Deficiência, com o objetivo de subsidiar o Conselho no exercício das competências a que se refere o inciso X do caput do art. 2º.</b></br>
     § 3º  As Comissões Permanentes serão compostas paritariamente e terão até seis integrantes.</br>
     § 4º  Resolução do Conselho Nacional dos Direitos da Pessoa com Deficiência disporá sobre a composição e o funcionamento das Comissões Permanentes.</br>
     § 5º  Além do voto ordinário, os Coordenadores terão o voto de qualidade em caso de empate.</br>
     </br>
     Art. 10.  As Comissões Temáticas:</br>
     I - serão compostas na forma de resolução do Conselho Nacional dos Direitos da Pessoa com Deficiência;</br>
-    II - não poderão ter mais de cinco membros;</br>
+    <b>II - não poderão ter mais de cinco membros;</b></br>
     III - terão caráter temporário e duração não superior a um ano; e</br>
     IV - estarão limitadas a três operando simultaneamente.</br>
    </p> `,
