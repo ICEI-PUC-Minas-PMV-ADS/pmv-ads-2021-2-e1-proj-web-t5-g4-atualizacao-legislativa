@@ -36,7 +36,7 @@ const leis = [{
     <b>j) um do Ministério da Comunicações;</b></br>
     <b>k) um do Ministério da Ciência, Tecnologia e Inovações;</b></br>
     <b>l) do Ministério da Mulher, da Família e dos Direitos Humanos:</b></br>
-    <b>1. um da Secretaria Nacional dos Direitos da Pessoa com Deficiência; e</br>
+    <b>1. um da Secretaria Nacional dos Direitos da Pessoa com Deficiência; e</b></br>
     <b>2. um da Secretaria Nacional de Políticas para as Mulheres;</b></br>
     <b>3. um da Secretaria Nacional da Proteção Global;</b></br>
     <b>m) Conselhos Estaduais e Distrital dos Direitos da Pessoa com Deficiência; e</br>
