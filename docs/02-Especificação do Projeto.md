@@ -6,18 +6,38 @@ Chegou-se à definição do problema, através da elucidação de situações re
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas nas figuras que se seguem:
 
+|<img src="https://user-images.githubusercontent.com/88891675/144253285-1e87d3e1-ce28-4661-87e5-eb053364c026.jpg" width="100">| Lúcia Tomazaki |
+|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Idade: | 41 anos |
+| Ocupação: | Administradora, funcionária de multinacional, trabalha com análise de contratos. |
+| Aplicativos: | 1) Flipboard;<br> 2) Linkedin;<br> 3) Aplicativos de bancos.<br> |
+| Motivações: | 1) Manter-se atualizada;<br> 2) Otimização de tempo;<br> 3) Economia com redução de impressões e compra de livros;<br> 4) Organização das nformações.<br> |
+| Frustrações: | 1) Compras de materiais que rapidamente se desatualizam;<br> 2) Frustação com a quantidade de retrabalho;<br> 3) Grande fluxo de informações; <br> 4) Ausência de acessibilidade em sites.<br> |
+| Hobbies/História | Leitura, natação, cultivo de bonsai. Possui deficiencia visual. |
+
+<br>
+
+|<img src="https://user-images.githubusercontent.com/88891675/144259600-76f9369a-5004-4cb1-baa4-5e87d78de211.jpg" width="100"> | Guilherme Alves |
+|----------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| Idade: | 30 anos |
+| Ocupação: | Advogado, recém formado no curso de Direito, estuda para concursos públicos. |
+| Aplicativos: | 1) Facebook;<br> 2) Linkedin;<br> 3) Aplicativos de bancos;<br> 4) Instagram.<br> |
+| Motivações: | 1) Buscando um cargo público;<br> 2) Otimização de tempo;<br> 3) Manter-se atualizado;<br> |
+| Frustrações: | 1) Baixos salários no início da carreira;<br> 2) Frustação em ter que empreender.<br> |
+| Hobbies/História | Leitura, jogar tenis, sair com amigos. |
+
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Guilherme Alves| fazer o download de uma legislação em formato PDF| fazer grifos e anotações no próprio computador, sem precisar imprimir a lei.|
-|Guilherme Alves| editar o texto de uma legislação| adequar tamanho de fonte, espaçamento, margem etc., da forma que eu preferir, para download ou impressão.|
-|Guilherme Alves| manter um registro salvo com as minhas preferências de edição de texto| facilitar a manutenção de um padrão para a impressão de documentos.|
-|Lúcia Tomazaki| receber notificações de atualizações sobre um texto que já acessei anteriormente no site| não perder tempo pesquisando se a legislação possui alguma nova alteração.|
-|Lúcia Tomakazi| poder acessar conteúdo legislativo compatível com leitores de telas| promover a compreensão da legislação de forma acessível.|
+| EU COMO...| QUERO/PRECISO...  |  PARA... |
+|---------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------|
+| Guilherme Alves | fazer o download de uma legislação em formato PDF| fazer grifos e anotações no próprio computador, sem precisar imprimir a lei.|
+| Guilherme Alves | editar o texto de uma legislação| adequar tamanho de fonte, espaçamento, margem etc., da forma que eu preferir, para download ou impressão.|
+| Guilherme Alves | manter um registro salvo com as minhas preferências de edição de texto| facilitar a manutenção de um padrão para a impressão de documentos.|
+| Lúcia Tomazaki  | receber notificações de atualizações sobre um texto que já acessei anteriormente no site| não perder tempo pesquisando se a legislação possui alguma nova alteração.|
+| Lúcia Tomakazi  | poder acessar conteúdo legislativo compatível com leitores de telas| promover a compreensão da legislação de forma acessível.|
 
 ## Requisitos
 
