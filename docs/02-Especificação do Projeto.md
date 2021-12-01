@@ -62,7 +62,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O site deve ser totalmente responsivo.| ALTA | 
-|RNF-002| O site deve conter métodos de acessibilidade para pessoas com deficiência. | ALTA | 
+|RNF-002| O site deve conter métodos de acessibilidade para pessoas com deficiência. | BAIXA | 
 |RNF-003| O site deve conter tecnologias e versões adaptadas para ser renderizada nos navegadores mais usados (Google Chrome, Microsoft Edge, Firefox, Microsoft Explore). | ALTA |
 |RNF-004| O site deve ser publicado em um ambiente acessível publicamente na internet (GitHub Pages, Heroku, Replit.it, Versel). | ALTA |
 |RNF-005| O site deve consumir APIs externas para carregar fontes entre outras funcionalidades Open Source. | ALTA |
