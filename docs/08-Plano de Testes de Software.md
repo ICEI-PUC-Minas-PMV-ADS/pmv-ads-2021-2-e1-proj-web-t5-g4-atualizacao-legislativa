@@ -1,9 +1,9 @@
 # Plano de Testes de Software
 
 Os requisitos para a realização dos testes de software são:<br>
-•	Site publicado na internet;<br>
-•	Navegador da Internet – Chrome, Firefox ou Edge;<br>
-•	Conectividade de internet.<br>
+* Site publicado na internet;<br>
+*	Navegador da Internet – Chrome, Firefox ou Edge;<br>
+*	Conectividade de internet.<br>
 <br>
 
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
