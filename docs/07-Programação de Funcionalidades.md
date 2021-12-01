@@ -8,7 +8,7 @@ Nesta seção, são exibidas as telas referentes à construção parcial de algu
 
  
 
-#### 7.1 **HOME PAGE** (RF-07): 
+### Home page (RF-07): 
 
 <img width="100%"  src="./img/Index.png" alt="Tela inicial"/>
 
@@ -26,7 +26,7 @@ A tela inicial permite ao usuário ter uma visão geral do site e aos resumos da
 
  
 
-#### 7.2 **LOGIN** (RF-06): 
+## Login (RF-06): 
 
 <img width="100%"  src="./img/ModalWeb.png" alt="Modal para Login"/>
 
@@ -37,7 +37,7 @@ O cadastro e login, que integram o gerenciamento de usuários, é elemento indis
 * Index.html 
 * Style.css 
 
-#### 7.3 INSTRUÇÔES DE ACESSO: 
+## Instruções de acesso: 
 
 * Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub; 
 
